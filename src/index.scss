@@ -1,0 +1,220 @@
+@import-normalize;
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins-extrabold.woff2") format("woff2"),
+    url("./fonts/poppins-extrabold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins-semibold.woff2") format("woff2"),
+    url("./fonts/poppins-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins-medium.woff2") format("woff2"),
+    url("./fonts/poppins-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --bg: #1a1a1a;
+  --text-color: #fff;
+  --color: #ed1c24;
+
+  --border: rgba(255, 255, 255, 0.2);
+
+  --svg-effect-color: rgba(255, 255, 255, 0.7);
+  --svg-effect-color2: rgba(48, 48, 48, 0.8);
+  --svg-effect-border: rgba(255, 255, 255, 0.3);
+  --svg-effect-bg: #252525;
+  --svg-effect-bg2: #1d1d1d;
+  --svg-effect-bg-border: #424242;
+
+  --color-hover: #444444;
+  --green-color: #229631;
+  --red-color: #c22727;
+  --yellow-color: #ec891f;
+  --blue-color: #124f94;
+
+  --gray: #a5a5a5;
+  --footer-background-color: #000000;
+  --cubic: 0.3s;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body[data-theme="light"] {
+  --bg: #f5f5f5;
+  --text-color: #2b2b2b;
+  --color: #ff8717;
+  --border: rgba(153, 153, 153, 0.6);
+  --svg-effect-color: #404040;
+  --svg-effect-color2: #e1e1e1;
+  --svg-effect-border: #cacaca;
+  --svg-effect-bg: #f4f4f4;
+  --svg-effect-bg2: #bebebe;
+  --svg-effect-bg-border: #a8a8a8;
+}
+
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+b {
+  font-weight: 600;
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.body {
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: var(--bg);
+  color: var(--text-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+  transition: background 0.3s, color 0.3s;
+  &.locked {
+    overflow-y: hidden;
+  }
+}
+
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main {
+  flex: 1;
+  margin-bottom: auto;
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  z-index: 2;
+}
+
+//FORM VALIDATION
+
+.labelError {
+  display: flex;
+  width: 100% !important;
+  position: relative;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+  font-size: 12px;
+  color: var(--red-color);
+  height: auto;
+  padding-top: 6px;
+  opacity: 0;
+  transform: translate(10px, 0px);
+  transition: 0.4s ease-in-out;
+  &.active {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
+
+input,
+textarea {
+  &.invalid {
+    border: 1px solid var(--red-color);
+    color: var(--red-color);
+  }
+  &.valid {
+    border: 1px solid var(--green-color) !important;
+    color: var(--text-color);
+  }
+}
+
+input[type="hidden"],
+input[type="radio"],
+input[type="checkbox"] {
+  &.invalid {
+    ~ div {
+      border: 1px solid var(--red-color);
+    }
+  }
+}
+input[type="hidden"] {
+  &.valid {
+    ~ div {
+      border: 1px solid var(--green-color);
+    }
+  }
+}
+
+.color {
+  color: var(--color);
+}
+
+//CUSTOM SCROLLBAR
+.custom-scrollbar {
+  -webkit-overflow-scrolling: touch;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px; /* scrollbar width */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color); /* color of thumb */
+  border-radius: 0px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0); /* track background */
+  border-radius: 0px;
+}
+
+header .custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--bg); /* color of thumb */
+}
