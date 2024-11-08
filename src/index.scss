@@ -1,25 +1,22 @@
 @import-normalize;
 
 @font-face {
-  font-family: "Poppins";
-  src: url("./fonts/poppins-extrabold.woff2") format("woff2"),
-    url("./fonts/poppins-extrabold.woff") format("woff");
+  font-family: 'Poppins';
+  src: url('./assets/fonts/poppins-extrabold.woff2') format('woff2'), url('./assets/fonts/poppins-extrabold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("./fonts/poppins-semibold.woff2") format("woff2"),
-    url("./fonts/poppins-semibold.woff") format("woff");
+  font-family: 'Poppins';
+  src: url('./assets/fonts/poppins-semibold.woff2') format('woff2'), url('./assets/fonts/poppins-semibold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("./fonts/poppins-medium.woff2") format("woff2"),
-    url("./fonts/poppins-medium.woff") format("woff");
+  font-family: 'Poppins';
+  src: url('./assets/fonts/poppins-medium.woff2') format('woff2'), url('./assets/fonts/poppins-medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
@@ -58,7 +55,7 @@
   -webkit-tap-highlight-color: transparent;
 }
 
-body[data-theme="light"] {
+body[data-theme='light'] {
   --bg: #f5f5f5;
   --text-color: #2b2b2b;
   --color: #ff8717;
@@ -108,7 +105,7 @@ img {
   overflow-y: auto;
   background: var(--bg);
   color: var(--text-color);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 13px;
   line-height: 1.5;
   font-weight: 500;
@@ -175,16 +172,16 @@ textarea {
   }
 }
 
-input[type="hidden"],
-input[type="radio"],
-input[type="checkbox"] {
+input[type='hidden'],
+input[type='radio'],
+input[type='checkbox'] {
   &.invalid {
     ~ div {
       border: 1px solid var(--red-color);
     }
   }
 }
-input[type="hidden"] {
+input[type='hidden'] {
   &.valid {
     ~ div {
       border: 1px solid var(--green-color);

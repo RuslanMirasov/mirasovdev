@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { App } from './components';
-import './utils/languages';
-import './utils/scrollToBlock';
+import './assets/utils/languages';
+import './assets/utils/scrollToBlock';
 import './index.scss';
 
 const rootElement = document.getElementById('root');

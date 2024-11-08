@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 // добавляем языки
-import translationEN from './../languages/en/translation.json';
-import translationDE from './../languages/de/translation.json';
+import translationEN from '../../languages/en/translation.json';
+import translationDE from '../../languages/de/translation.json';
 
 // инициализируем i18next
 i18n
