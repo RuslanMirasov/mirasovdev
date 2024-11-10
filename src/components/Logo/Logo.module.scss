@@ -1,0 +1,28 @@
+.Logo {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  gap: 10px;
+  margin-right: auto;
+  svg {
+    position: relative;
+    top: -1.5px;
+    display: block;
+    width: 40px;
+    transition: 0.3s;
+  }
+  .LogoText {
+    color: inherit;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: 0.3s;
+    @media (max-width: 439px) {
+      display: none;
+    }
+  }
+}

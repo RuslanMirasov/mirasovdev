@@ -2,11 +2,11 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// добавляем языки
-import translationEN from '../../languages/en/translation.json';
-import translationDE from '../../languages/de/translation.json';
+// add translationf files
+import translationEN from '../languages/en/translation.json';
+import translationDE from '../languages/de/translation.json';
 
-// инициализируем i18next
+// init
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
@@ -19,7 +19,7 @@ i18n
         translation: translationDE,
       },
     },
-    fallbackLng: 'en', // язык по умолчанию
+    fallbackLng: 'en', // default language
     debug: false,
     interpolation: {
       escapeValue: false,

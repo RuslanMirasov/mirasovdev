@@ -1,11 +1,13 @@
 import { lazy } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Layout } from '../../components';
+import { Layout } from 'components';
 
-const Home = lazy(() => import('../../pages/Home'));
-const NotFound = lazy(() => import('../../pages/NotFound'));
+type LazyFC = React.LazyExoticComponent<React.FC>;
 
-const App = () => {
+const Home: LazyFC = lazy(() => import('pages/Home'));
+const NotFound: LazyFC = lazy(() => import('pages/NotFound'));
+
+const App: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
