@@ -14,7 +14,7 @@ if (rootElement) {
   root.render(
     <React.StrictMode>
       <BrowserRouter
-        basename="/mirasovdev"
+        basename="/"
         future={{
           v7_startTransition: true,
           v7_relativeSplatPath: true,

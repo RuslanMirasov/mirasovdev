@@ -1,18 +1,11 @@
 import { useState } from 'react';
 import css from './Burger.module.scss';
 
-interface BurgerProps {
-  onBurgerChange?: (isOpen: boolean) => void;
-}
-
-const Burger: React.FC<BurgerProps> = ({ onBurgerChange }) => {
+const Burger: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const handleClick = () => {
     setIsOpen(prev => !prev);
-    if (onBurgerChange) {
-      onBurgerChange(isOpen);
-    }
   };
 
   return (

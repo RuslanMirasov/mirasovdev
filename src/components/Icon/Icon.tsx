@@ -5,7 +5,7 @@ interface SvgProps {
 }
 
 interface IconProps extends SvgProps {
-  name?: 'logo' | 'scrolldown';
+  name?: string;
 }
 
 const Logo: React.FC<SvgProps> = ({ size = 40, color, fill }) => (
