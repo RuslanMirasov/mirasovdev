@@ -2,7 +2,7 @@
   "name": "mirasovdev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RuslanMirasov.github.io/mirasovdev/",
+  "homepage": "https://mirasovdev.vercel.app/",
   "dependencies": {
     "i18next": "^23.16.5",
     "i18next-browser-languagedetector": "^8.0.0",
