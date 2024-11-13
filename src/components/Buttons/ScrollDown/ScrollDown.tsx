@@ -1,7 +1,11 @@
 import Icon from 'components/Icon/Icon';
 import css from './ScrollDown.module.scss';
 
-const ScrollDown = ({ scrollto }) => {
+interface ScrollDownProps {
+  scrollto?: string;
+}
+
+const ScrollDown: React.FC<ScrollDownProps> = ({ scrollto }) => {
   return (
     <div className={css.ScrollDown} data-scrollto={scrollto}>
       <Icon name="scrolldown" />

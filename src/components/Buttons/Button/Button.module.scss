@@ -1,0 +1,99 @@
+.Button {
+  display: inline-flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  padding: 14px 36px;
+  min-height: 50px;
+  color: var(--white);
+  background: var(--color);
+  transition: background-color 0.3s, color 0.3s, transform 0.2s, box-shadow 0.2s;
+
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  opacity: 1;
+  cursor: pointer;
+  transform: translate(0px, 0px);
+  user-select: none;
+
+  span {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    pointer-events: none;
+  }
+  &:disabled {
+    opacity: 0.5;
+  }
+  &:active {
+    transform: translate(0px, 2px);
+    box-shadow: 0px 12px 10px -14px rgba(0, 0, 0, 0.6);
+  }
+  &:hover,
+  &:focus {
+    background: var(--color-hover);
+  }
+}
+
+.Big {
+  font-size: 18px;
+  padding: 12px 36px;
+  min-height: 60px;
+}
+
+.Small {
+  font-size: 12px;
+  padding: 10px 20px;
+  min-height: 40px;
+}
+
+.Black {
+  background: var(--text-color);
+  &:hover,
+  &:focus {
+    background: rgb(255, 255, 255);
+    color: var(--text-color);
+  }
+}
+
+.White {
+  background: var(--white);
+  color: var(--text-color);
+  &:hover,
+  &:focus {
+    color: var(--white);
+  }
+}
+
+.BorderDark {
+  border: 2px solid var(--color);
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+  color: var(--text-color);
+  &:hover,
+  &:focus {
+    color: var(--white);
+    background: var(--color);
+  }
+}
+
+.BorderLight {
+  border: 2px solid var(--green-color);
+  background: rgba(0, 0, 0, 0);
+  box-shadow: none;
+  color: var(--white);
+}
+
+.Full {
+  width: 100%;
+}

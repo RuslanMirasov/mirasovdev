@@ -1,0 +1,146 @@
+.LandingEffect {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  perspective: 1500px;
+  transform-style: preserve-3d;
+  color: var(--color);
+  @media (max-width: 767px) {
+    top: auto;
+    bottom: 70px;
+    height: 100vw;
+    max-height: 375px;
+  }
+}
+.SvgList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 80%;
+  max-width: 380px;
+  margin-left: 380px;
+  @media (max-width: 1599px) {
+    max-width: 350px;
+    margin-left: 340px;
+  }
+  @media (max-width: 1439px) {
+    max-width: 280px;
+    margin-left: 380px;
+  }
+  @media (max-width: 1023px) {
+    margin-left: 340px;
+  }
+  @media (max-width: 767px) {
+    margin-left: 0px;
+    width: 54%;
+    max-width: 250px;
+  }
+  position: relative;
+  perspective: 1500px;
+  transition: 2s cubic-bezier(0, 0.37, 0.14, 1);
+  transform-style: preserve-3d;
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    padding-top: 150%;
+  }
+  svg {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.SvgList_item {
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  perspective: 1500px;
+  transition: 2s cubic-bezier(0, 0.37, 0.14, 1);
+}
+
+// Использовать только ниже 1279
+@media screen and (max-width: 1279px) {
+  .SvgList {
+    animation: landing_page 6s infinite ease-in-out;
+  }
+  .Svg_2 {
+    animation: svg_animation1 6s infinite ease-in-out;
+  }
+  .Svg_3 {
+    animation: svg_animation2 6s infinite ease-in-out;
+  }
+}
+
+@keyframes landing_page {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) scale(1) translate(0%, 0%);
+  }
+  22% {
+    transform: rotateY(340deg) rotateX(10deg) rotateZ(10deg) scale(1) translate(8%, 0%);
+  }
+  70% {
+    transform: rotateY(340deg) rotateX(10deg) rotateZ(10deg) scale(1) translate(8%, 0%);
+  }
+  90% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) scale(1) translate(0%, 0%);
+  }
+  100% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) scale(1) translate(0%, 0%);
+  }
+}
+
+@keyframes svg_animation1 {
+  0% {
+    transform: translateZ(0px) scale(1);
+  }
+  15% {
+    transform: translateZ(0px) scale(1);
+  }
+  30% {
+    transform: translateZ(50px) scale(1);
+  }
+  45% {
+    transform: translateZ(50px) scale(1);
+  }
+  75% {
+    transform: translateZ(0px) scale(1);
+  }
+  90% {
+    transform: translateZ(0px) scale(1);
+  }
+  100% {
+    transform: translateZ(0px) scale(1);
+  }
+}
+
+@keyframes svg_animation2 {
+  0%,
+  15% {
+    transform: translateZ(0px) scale(1);
+  }
+  30%,
+  50% {
+    transform: translateZ(100px) scale(1);
+  }
+  75%,
+  100% {
+    transform: translateZ(0px) scale(1);
+  }
+}

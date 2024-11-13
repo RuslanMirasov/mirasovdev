@@ -6,6 +6,7 @@
   color: inherit;
   padding-top: 80px;
   padding-bottom: 80px;
+  overflow: hidden;
 }
 
 .FullScreen {
@@ -21,7 +22,24 @@
     background-repeat: repeat-y;
     background-size: 1200px auto;
     @media (max-width: 1240px) {
-      background-size: calc(100% + 40px) auto;
+      background-image: none;
     }
+  }
+}
+
+:global(.section-hero) {
+  padding: 70px 0px;
+  height: 800px;
+  @media (max-width: 1439px) {
+    height: auto;
+    padding: 140px 0px 70px 0px;
+  }
+  @media (max-width: 1023px) {
+    min-height: 680px;
+  }
+  @media (max-width: 767px) {
+    padding-top: 110px;
+    padding-bottom: 450px;
+    min-height: auto;
   }
 }

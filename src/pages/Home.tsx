@@ -1,12 +1,10 @@
-import { Section, Container } from 'components';
+import Hero from 'sections/Hero';
 
 const Home: React.FC = () => {
   return (
-    <Section full extraClass="section-hero">
-      <Container>
-        <h1>Main Page</h1>
-      </Container>
-    </Section>
+    <>
+      <Hero />
+    </>
   );
 };
 
