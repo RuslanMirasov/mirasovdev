@@ -17,35 +17,3 @@ export const unfreezBody = (): void => {
   modifyScrollbar();
   document.body.removeAttribute('data-freez');
 };
-
-// export const closeMenu = (): void => {
-//   const burger = document.querySelector('[data-burger]') as HTMLElement | null;
-//   const menu = document.querySelector('[data-navigation]') as HTMLElement | null;
-
-//   if (!burger || !menu) return;
-
-//   modifyScrollbar();
-//   unfreezBody();
-//   burger.setAttribute('data-burger', '');
-//   menu.setAttribute('data-navigation', '');
-// };
-
-// export const toggleMenu = (): void => {
-//   const burger = document.querySelector('[data-burger]') as HTMLElement | null;
-//   const menu = document.querySelector('[data-navigation]') as HTMLElement | null;
-
-//   if (!burger || !menu) return;
-
-//   modifyScrollbar();
-
-//   if (menu.dataset.navigation !== 'open') {
-//     freezBody();
-//     burger.setAttribute('data-burger', 'open');
-//     menu.setAttribute('data-navigation', 'open');
-//     return;
-//   }
-
-//   unfreezBody();
-//   burger.setAttribute('data-burger', '');
-//   menu.setAttribute('data-navigation', '');
-// };
