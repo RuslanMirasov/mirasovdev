@@ -1,0 +1,142 @@
+.LanguageSelect {
+  display: inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: flex-end;
+  gap: 40px;
+  margin-right: auto;
+  p {
+    cursor: pointer;
+  }
+  > li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 40px;
+    flex-wrap: nowrap;
+    position: relative;
+    > p {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-content: center;
+      height: 100%;
+      transition: 0.1s;
+    }
+    &:hover,
+    &:focus {
+      > .Arrow {
+        transform: rotate(180deg);
+        color: var(--color);
+      }
+      > p {
+        color: var(--color);
+      }
+      > ul {
+        transform: translate(0px, 0px);
+        visibility: visible;
+        opacity: 1;
+        pointer-events: all;
+      }
+    }
+    p {
+      display: block;
+      position: relative;
+      font-size: 16px;
+      line-height: 1;
+      color: var(--text-color);
+    }
+    /*LEVEL 2*/
+    ul {
+      display: block;
+      height: auto !important;
+      position: absolute;
+      left: -20px;
+      top: 100%;
+      margin-top: 10px;
+      background: var(--bg);
+      color: var(--text-color);
+      border-radius: 0px;
+      width: auto;
+      transition: 0.3s;
+      transform: translate(0px, 10px);
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+      padding: 10px 0px;
+      border: 1px solid var(--border);
+      &:after {
+        content: '';
+        width: 14px;
+        height: 14px;
+        background: inherit;
+        position: absolute;
+        top: -8px;
+        left: 20px;
+        transform: rotate(45deg);
+        border-left: 1px solid var(--border);
+        border-top: 1px solid var(--border);
+      }
+      &:before {
+        content: '';
+        height: 20px;
+        width: 100%;
+        position: absolute;
+        left: 0px;
+        top: -18px;
+      }
+      li {
+        position: relative;
+        p {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          white-space: nowrap;
+          color: inherit;
+          line-height: 18px;
+          padding: 8px 20px 8px 20px;
+        }
+        .Arrow {
+          position: absolute;
+          z-index: 2;
+          right: 10px;
+          top: 50%;
+          margin-top: -6px;
+          transform: rotate(-90deg) translate(0px, 0px);
+        }
+        &:hover,
+        &:focus {
+          > p {
+            color: var(--color);
+          }
+          > .Arrow {
+            opacity: 0;
+            transform: rotate(-90deg) translate(0px, 10px);
+          }
+        }
+      }
+    }
+  }
+}
+.Arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 8px;
+  height: 8px;
+  position: relative;
+  top: 1px;
+  color: inherit;
+  z-index: 5;
+  transition: 0.3s;
+  transform: rotate(0deg);
+  order: 2;
+  pointer-events: none;
+  margin-left: 6px;
+  opacity: 1;
+  cursor: pointer;
+  svg {
+    width: 100%;
+  }
+}

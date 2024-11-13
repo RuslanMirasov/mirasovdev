@@ -1,8 +1,12 @@
-const Home = () => {
+import { Section, Container } from 'components';
+
+const Home: React.FC = () => {
   return (
-    <div>
-      <h1>Main Page</h1>
-    </div>
+    <Section full extraClass="section-hero">
+      <Container>
+        <h1>Main Page</h1>
+      </Container>
+    </Section>
   );
 };
 

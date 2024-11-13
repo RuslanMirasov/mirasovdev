@@ -1,0 +1,103 @@
+.Overlay {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.Navigation {
+  display: flex;
+  width: 100%;
+}
+
+//DESCTOP STYLES
+@media screen and (min-width: 1024px) {
+  .Overlay {
+    justify-content: flex-end;
+    position: relative;
+  }
+  .Navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+//MOBIL STYLES
+@media screen and (max-width: 1023px) {
+  .Overlay {
+    justify-content: flex-end;
+    position: fixed;
+    overflow: hidden;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease 0.2s, visibility 0.3s ease 0.2s;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: calc(100% - 20px);
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      background: var(--menu_mobil_bg);
+    }
+    &[data-navigation='open'] {
+      transition: opacity 0.3s ease 0s, visibility 0.3s ease 0s;
+      opacity: 1;
+      visibility: visible;
+      pointer-events: all;
+    }
+  }
+
+  .Navigation {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 420px;
+    @media screen and (max-width: 699px) {
+      max-width: 100%;
+    }
+    height: 100%;
+    background: var(--menu_mobil_bg);
+    transition: transform 0.6s cubic-bezier(0.34, 0.91, 0.37, 0.99);
+    transform: translate(100%, 0%);
+    box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.1);
+    &:before,
+    &:after {
+      content: '';
+      width: 100%;
+      height: 80px;
+      position: absolute;
+      left: 0%;
+      z-index: 3;
+      pointer-events: none;
+    }
+    &:before {
+      top: 0px;
+      background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, var(--menu_mobil_bg) 60%);
+    }
+    &:after {
+      bottom: 0px;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--menu_mobil_bg) 60%);
+    }
+    &.isOpen {
+      transform: translate(0%, 0%);
+    }
+  }
+
+  [data-navigation='open'] {
+    .Navigation {
+      transform: translate(0%, 0%);
+    }
+  }
+}

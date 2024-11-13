@@ -6,13 +6,15 @@
   position: relative;
   z-index: 2;
   gap: 10px;
-  margin-right: auto;
   svg {
     position: relative;
     top: -1.5px;
     display: block;
     width: 40px;
     transition: 0.3s;
+    @media (max-width: 767px) {
+      top: 0px;
+    }
   }
   .LogoText {
     color: inherit;

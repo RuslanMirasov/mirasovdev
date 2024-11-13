@@ -26,7 +26,7 @@
   --black: #000;
   --bg: #1a1a1a;
   --text-color: #fff;
-  --color: #ed1c24;
+  --color: #fc895c;
 
   --border: rgba(255, 255, 255, 0.2);
 
@@ -45,6 +45,7 @@
 
   --gray: #a5a5a5;
   --footer-background-color: #000000;
+  --menu_mobil_bg: #353535;
   --cubic: 0.3s;
 
   font-synthesis: none;
@@ -60,12 +61,15 @@ body[data-theme='light'] {
   --text-color: #2b2b2b;
   --color: #ff8717;
   --border: rgba(153, 153, 153, 0.6);
+
   --svg-effect-color: #404040;
   --svg-effect-color2: #e1e1e1;
   --svg-effect-border: #cacaca;
   --svg-effect-bg: #f4f4f4;
   --svg-effect-bg2: #bebebe;
   --svg-effect-bg-border: #a8a8a8;
+
+  --menu_mobil_bg: #fff;
 }
 
 *,
@@ -76,8 +80,7 @@ body[data-theme='light'] {
   padding: 0;
 }
 
-html,
-body {
+html {
   height: 100%;
 }
 
@@ -101,6 +104,7 @@ img {
 }
 
 .body {
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   background: var(--bg);
@@ -110,7 +114,7 @@ img {
   line-height: 1.5;
   font-weight: 500;
   transition: background 0.3s, color 0.3s;
-  &.locked {
+  &[data-freez] {
     overflow-y: hidden;
   }
 }
@@ -213,5 +217,5 @@ input[type='hidden'] {
 }
 
 header .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: var(--bg); /* color of thumb */
+  background-color: var(--menu_mobil_bg); /* color of thumb */
 }

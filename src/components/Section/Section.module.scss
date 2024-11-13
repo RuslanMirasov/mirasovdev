@@ -1,0 +1,27 @@
+.Section {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: auto;
+  color: inherit;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.FullScreen {
+  min-height: 100vh;
+  align-items: center;
+  align-content: center;
+}
+
+[data-theme='light'] {
+  .Section {
+    background-image: url('../../assets/img/bg.svg');
+    background-position-x: center;
+    background-repeat: repeat-y;
+    background-size: 1200px auto;
+    @media (max-width: 1240px) {
+      background-size: calc(100% + 40px) auto;
+    }
+  }
+}

@@ -1,0 +1,285 @@
+//MOBIL STYLES
+@media screen and (max-width: 1023px) {
+  .NavMenu {
+    display: block;
+    position: relative;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    max-height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 60px 13px 150px 30px;
+    > li {
+      padding: 15px 0px;
+      > ul {
+        li {
+          &:first-child {
+            padding-top: 20px;
+          }
+          &:last-child {
+            padding-bottom: 0px;
+          }
+          ul li {
+            &:last-child {
+              padding-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+    li {
+      display: block;
+      width: 100%;
+      position: relative;
+      a {
+        display: block;
+        position: relative;
+        width: 100%;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 1;
+        font-family: inherit;
+        padding-right: 40px;
+        transition: 0.3s;
+        color: var(--text-color);
+      }
+      /*LEVEL 2*/
+      ul {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 0px;
+        padding-left: 20px;
+        transition: 0.6s;
+        overflow: hidden;
+
+        li {
+          padding: 8px 0px;
+          a {
+            font-size: 18px;
+            font-weight: 500;
+            &:before {
+              content: '';
+              display: block;
+              position: absolute;
+              left: -18px;
+              top: 7px;
+              width: 5px;
+              height: 5px;
+              border-radius: 6px;
+              background: var(--text-color);
+            }
+          }
+          .NavMore {
+            width: 38px;
+            height: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .NavMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 38px;
+    height: 26px;
+    position: absolute;
+    color: inherit;
+    z-index: 2;
+    right: 0px;
+    transition: 0.6s;
+    transform: rotate(0deg);
+    user-select: none;
+    color: var(--text-color);
+    cursor: pointer;
+    svg {
+      width: 40%;
+      pointer-events: none;
+    }
+  }
+
+  li {
+    &.Open {
+      > .NavMore {
+        transform: rotate(180deg);
+        color: var(--color);
+      }
+      > a {
+        color: var(--color);
+      }
+    }
+  }
+}
+
+//DESCTOP STYLES
+@media screen and (min-width: 1024px) {
+  .NavMenu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 34px;
+    > li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-wrap: nowrap;
+      position: relative;
+      > a {
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-content: center;
+        height: 100%;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        transition: 0.1s;
+      }
+      &:hover,
+      &:focus {
+        > .NavMore {
+          transform: rotate(180deg);
+          color: var(--color);
+        }
+        > a {
+          color: var(--color);
+        }
+        > ul {
+          transform: translate(0px, 0px);
+          visibility: visible;
+          opacity: 1;
+          pointer-events: all;
+        }
+      }
+      a {
+        display: block;
+        position: relative;
+        font-size: 16px;
+        line-height: 1;
+        color: var(--text-color);
+      }
+      /*LEVEL 2*/
+      ul {
+        display: block;
+        height: auto !important;
+        position: absolute;
+        left: -17px;
+        top: 100%;
+        margin-top: 10px;
+        background: var(--bg);
+        color: var(--text-color);
+        border-radius: 0px;
+        width: auto;
+        transition: 0.3s;
+        transform: translate(0px, 10px);
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        padding: 10px 0px;
+        border: 1px solid var(--border);
+        &:after {
+          content: '';
+          width: 14px;
+          height: 14px;
+          background: inherit;
+          position: absolute;
+          top: -8px;
+          left: 20px;
+          transform: rotate(45deg);
+          border-left: 1px solid var(--border);
+          border-top: 1px solid var(--border);
+        }
+        &:before {
+          content: '';
+          height: 20px;
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          top: -18px;
+        }
+        li {
+          position: relative;
+          a {
+            display: block;
+            white-space: nowrap;
+            font-size: 14px;
+            text-transform: capitalize;
+            color: inherit;
+            padding: 8px 30px 8px 20px;
+          }
+          .NavMore {
+            position: absolute;
+            z-index: 2;
+            right: 10px;
+            top: 50%;
+            margin-top: -4px;
+            transform: rotate(-90deg) translate(0px, 0px);
+          }
+          &:hover,
+          &:focus {
+            > a {
+              color: var(--color);
+            }
+            > .NavMore {
+              opacity: 0;
+              transform: rotate(-90deg) translate(0px, 10px);
+            }
+          }
+          //LEVEL 3.......9999
+          ul {
+            left: 100%;
+            top: 0%;
+            transform: translate(10px, -1px);
+            visibility: hidden;
+            opacity: 0;
+            pointer-events: none;
+            margin: 0;
+            top: -10px;
+            &:after {
+              top: 16px;
+              left: -8px;
+              transform: rotate(-45deg);
+            }
+          }
+          &:hover,
+          &:focus {
+            > ul {
+              pointer-events: all;
+              transform: translate(0px, -1px);
+              visibility: visible;
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+  .NavMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: 1px;
+    color: inherit;
+    z-index: 5;
+    transition: 0.3s;
+    transform: rotate(0deg);
+    order: 2;
+    pointer-events: none;
+    margin-left: 6px;
+    opacity: 1;
+    cursor: pointer;
+    svg {
+      width: 100%;
+    }
+  }
+}

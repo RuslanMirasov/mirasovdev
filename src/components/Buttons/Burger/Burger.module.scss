@@ -36,7 +36,7 @@
   &:after {
     transform: translate(0px, 10px) rotate(0deg);
   }
-  &.isOpen {
+  &[data-burger='open'] {
     span {
       transform: translate(60%, 0%);
       opacity: 0;
