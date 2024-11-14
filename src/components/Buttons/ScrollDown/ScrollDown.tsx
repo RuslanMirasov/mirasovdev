@@ -1,13 +1,10 @@
-import Icon from 'components/Icon/Icon';
+import { Icon } from 'components';
+import scrollToBlock from 'assets/utils/scrollToBlock';
 import css from './ScrollDown.module.scss';
 
-interface ScrollDownProps {
-  scrollto?: string;
-}
-
-const ScrollDown: React.FC<ScrollDownProps> = ({ scrollto }) => {
+const ScrollDown: React.FC = () => {
   return (
-    <div className={css.ScrollDown} data-scrollto={scrollto}>
+    <div className={css.ScrollDown} onClick={() => scrollToBlock('section-portfolio')}>
       <Icon name="scrolldown" />
     </div>
   );

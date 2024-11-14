@@ -95,7 +95,7 @@ const Menu: React.FC = () => {
           </MenuLink>
         </ul>
       </MenuLink>
-      <MenuLink to="/sdsdsd" text={t('portfolio')} />
+      <MenuLink scrollto="section-portfolio" text={t('portfolio')} />
       <MenuLink scrollto="section-about" text={t('about')} />
       <MenuLink scrollto="section-skills" text={t('skills')} />
       <MenuLink scrollto="section-contacts" text={t('contacts')} />

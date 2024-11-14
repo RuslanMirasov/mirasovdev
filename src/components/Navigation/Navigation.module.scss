@@ -72,8 +72,7 @@
     transition: transform 0.6s cubic-bezier(0.34, 0.91, 0.37, 0.99);
     transform: translate(100%, 0%);
     box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.1);
-    &:before,
-    &:after {
+    &:before {
       content: '';
       display: block;
       width: 120%;
@@ -88,10 +87,6 @@
       top: 0px;
       background: var(--menu_mobil_bg);
       border-bottom: 1px solid var(--border);
-    }
-    &:after {
-      bottom: 0px;
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--menu_mobil_bg) 60%);
     }
     &.isOpen {
       transform: translate(0%, 0%);

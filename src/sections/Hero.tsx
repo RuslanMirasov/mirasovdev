@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
         </TitleBox>
       </Container>
 
-      <ScrollDown scrollto="section-portfolio" />
+      <ScrollDown />
     </Section>
   );
 };

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import scrollToBlock from 'assets/utils/scrollToBlock';
 import css from './Button.module.scss';
 
 interface ButtonProps {
@@ -44,6 +45,17 @@ const Button: React.FC<ButtonProps> = ({
     disabled,
   };
 
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>): void => {
+    if (e.currentTarget.dataset.scrollto) {
+      scrollToBlock(e.currentTarget.dataset.scrollto);
+      return;
+    }
+
+    if (onClick) {
+      onClick(e);
+    }
+  };
+
   if (to) {
     return (
       <Link to={to} {...commonProps}>
@@ -61,7 +73,7 @@ const Button: React.FC<ButtonProps> = ({
   }
 
   return (
-    <button type={type} onClick={onClick} {...commonProps}>
+    <button type={type} onClick={handleClick} {...commonProps}>
       <span>{children}</span>
     </button>
   );
