@@ -12,6 +12,7 @@ interface ButtonProps {
   full?: boolean;
   blank?: boolean;
   disabled?: boolean;
+  isLoading?: boolean;
   scrollto?: string;
   children: React.ReactNode;
 }
@@ -26,6 +27,7 @@ const Button: React.FC<ButtonProps> = ({
   full = false,
   blank = false,
   disabled = false,
+  isLoading = false,
   scrollto,
   children,
 }) => {
@@ -73,7 +75,7 @@ const Button: React.FC<ButtonProps> = ({
   }
 
   return (
-    <button type={type} onClick={handleClick} {...commonProps}>
+    <button type={type} onClick={handleClick} data-loading={isLoading} {...commonProps}>
       <span>{children}</span>
     </button>
   );

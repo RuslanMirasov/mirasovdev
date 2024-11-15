@@ -15,18 +15,6 @@
   align-content: center;
 }
 
-[data-theme='light'] {
-  .Section {
-    background-image: url('../../assets/img/bg.svg');
-    background-position-x: center;
-    background-repeat: repeat-y;
-    background-size: 1200px auto;
-    @media (max-width: 1240px) {
-      background-image: none;
-    }
-  }
-}
-
 :global(.section-hero) {
   padding: 70px 0px;
   height: 800px;
@@ -41,5 +29,12 @@
     padding-top: 110px;
     padding-bottom: 450px;
     min-height: auto;
+  }
+}
+
+:global(.section-portfolio) {
+  padding: 40px 0px 50px 0px;
+  @media (max-width: 767px) {
+    padding: 24px 0px 50px 0px;
   }
 }

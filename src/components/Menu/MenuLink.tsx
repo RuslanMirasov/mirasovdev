@@ -20,7 +20,9 @@ const MenuLink: React.FC<MenuLinkProps> = ({ to, text, onClick, scrollto, childr
     if (scrollto) {
       e.preventDefault();
       scrollToBlock(scrollto);
-      closeMenu();
+      if (window.innerWidth < 1024) {
+        closeMenu();
+      }
     }
   };
 

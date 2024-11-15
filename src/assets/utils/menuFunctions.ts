@@ -61,6 +61,7 @@ export const closeMenu = (): void => {
 
   modifyScrollbar();
   unfreezBody();
+
   burger.setAttribute('data-burger', '');
   menu.setAttribute('data-navigation', '');
 };
@@ -70,9 +71,7 @@ export const toggleMenu = (): void => {
   const menu = document.querySelector('[data-navigation]') as HTMLElement | null;
 
   if (!burger || !menu) return;
-
   modifyScrollbar();
-
   if (menu.dataset.navigation !== 'open') {
     freezBody();
     burger.setAttribute('data-burger', 'open');

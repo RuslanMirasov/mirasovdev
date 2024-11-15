@@ -23,11 +23,28 @@
   }
 }
 .TitleH2 {
-  font-size: 60px;
+  font-size: 58px;
   line-height: 1;
+  left: -2px;
+  letter-spacing: -1px;
+  @media (max-width: 767px) {
+    left: 0px;
+    font-size: 52px;
+  }
+  @media (max-width: 359px) {
+    font-size: 50px;
+  }
 }
 .TitleH3 {
-  font-size: 50px;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -1px;
+  @media (max-width: 767px) {
+    font-size: 36px;
+  }
+  @media (max-width: 359px) {
+    font-size: 32px;
+  }
 }
 .TitleH4 {
   font-size: 36px;

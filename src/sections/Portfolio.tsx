@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Section, Container, TitleBox, Title, Text } from 'components';
+import { Section, Container, TitleBox, Title, Text, Projects } from 'components';
 
 const Portfolio = () => {
   const { t } = useTranslation();
@@ -13,6 +13,7 @@ const Portfolio = () => {
           </Title>
           <Text width="352">{t('portfolio_subtitle')}</Text>
         </TitleBox>
+        <Projects />
       </Container>
     </Section>
   );

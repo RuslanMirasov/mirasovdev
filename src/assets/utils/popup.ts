@@ -1,5 +1,8 @@
-export const modifyScrollbar = () => {
-  const scrollbarWidth: number = window.innerWidth - document.body.clientWidth;
+type Scrollbar = number | null;
+
+export const modifyScrollbar = (scrollbar: Scrollbar = null): void => {
+  const scrollbarWidth: number = scrollbar !== null ? scrollbar : window.innerWidth - document.body.clientWidth;
+
   document.body.style.paddingRight = `${scrollbarWidth}px`;
   const fixedElements = document.querySelectorAll<HTMLElement>('[data-fix]');
   fixedElements.forEach(fixedElement => {
@@ -14,6 +17,5 @@ export const freezBody = (): void => {
 
 export const unfreezBody = (): void => {
   if (typeof document === 'undefined') return;
-  modifyScrollbar();
   document.body.removeAttribute('data-freez');
 };

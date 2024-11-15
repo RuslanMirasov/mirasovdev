@@ -1,6 +1,31 @@
 .Projects {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 0px;
-  margin-bottom: 30px;
+  ul {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    gap: 30px;
+    @media (max-width: 767px) {
+      margin: 24px 0px;
+    }
+    li {
+      cursor: pointer;
+      width: calc((100% - 60px) / 3);
+
+      @media (max-width: 899px) {
+        width: calc((100% - 30px) / 2);
+      }
+
+      @media (max-width: 599px) {
+        width: 100%;
+      }
+    }
+  }
+
+  button {
+    min-width: calc(33.333333% - 15px);
+    @media (max-width: 539px) {
+      min-width: 100%;
+    }
+  }
 }

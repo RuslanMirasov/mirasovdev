@@ -43,6 +43,23 @@
   &:focus {
     background: var(--color-hover);
   }
+  &[data-loading='true'] {
+    span {
+      color: rgba(0, 0, 0, 0);
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      border-left: 2px solid var(--text-color);
+      border-top: 2px solid var(--text-color);
+      border-bottom: 2px solid rgba(0, 0, 0, 0);
+      border-right: 2px solid rgba(0, 0, 0, 0);
+      border-radius: 20px;
+      animation: rotate 0.3s linear infinite;
+    }
+  }
 }
 
 .Big {
@@ -96,4 +113,13 @@
 
 .Full {
   width: 100%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }

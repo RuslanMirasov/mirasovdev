@@ -16,6 +16,8 @@ export { default as Logo } from './Logo/Logo';
 export { default as Icon } from './Icon/Icon';
 export { default as IconLanding } from './IconLanding/IconLanding';
 export { default as LandingEffect } from './LandingEffect/LandingEffect';
+export { default as Projects } from './Projects/Projects';
+export { default as Project } from './Project/Project';
 
 //Buttons
 export { default as ButtonsList } from './Buttons/ButtonsList/ButtonsList';

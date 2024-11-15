@@ -27,14 +27,15 @@
   align-content: center;
   width: 80%;
   max-width: 380px;
-  margin-left: 380px;
+  margin-left: 520px;
   @media (max-width: 1599px) {
     max-width: 350px;
-    margin-left: 340px;
   }
   @media (max-width: 1439px) {
     max-width: 280px;
-    margin-left: 380px;
+  }
+  @media (max-width: 1279px) {
+    margin-left: 350px;
   }
   @media (max-width: 1023px) {
     margin-left: 340px;
