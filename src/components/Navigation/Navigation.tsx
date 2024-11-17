@@ -4,10 +4,13 @@ import { toggleMenu, closeMenu } from 'assets/utils/menuFunctions';
 import { modifyScrollbar } from 'assets/utils/popup';
 import { debounce } from 'assets/utils/debounce';
 import css from './Navigation.module.scss';
+import { useModal } from 'hooks/useModal';
 
 const Navigation: React.FC = () => {
+  const { isOpen } = useModal();
   useEffect(() => {
     const handleResize = debounce(() => {
+      if (isOpen) return;
       if (window.innerWidth >= 1024 && document.body.hasAttribute('data-freez')) {
         closeMenu();
         modifyScrollbar(0);
@@ -19,7 +22,7 @@ const Navigation: React.FC = () => {
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []);
+  }, [isOpen]);
 
   const handleOverlayClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>): void => {
     const target = e.target as HTMLElement;

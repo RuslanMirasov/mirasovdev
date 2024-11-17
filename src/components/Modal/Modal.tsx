@@ -31,7 +31,7 @@ const Modal: React.FC = () => {
   };
 
   const modalMarkup = (
-    <div className={`${css.Backdrop} ${isVisible ? css.Visible : ''}`} data-backdrop onClick={handleBackdropClick}>
+    <div className={`${css.Backdrop} ${isVisible ? css.Visible : ''}`} data-backdrop data-fix onClick={handleBackdropClick}>
       <div className={css.ModalWrapper} data-backdrop onClick={handleBackdropClick}>
         <div className={css.Modal}>{content}</div>
       </div>
