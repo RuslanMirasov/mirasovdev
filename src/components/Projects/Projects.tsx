@@ -15,13 +15,14 @@ const Projects: React.FC = () => {
   const [projects, setProjects] = useState<ProjectType[]>([]);
   const [showButton, setShowButton] = useState<boolean>(false);
   const [isLoading, setIsLoading] = useState<boolean>(true);
-  const itemsPerPage: number = 3;
+  const itemsPerPage: number = 6;
   const itemsStep: number = 3;
 
   useEffect(() => {
     const fetchProjects = async () => {
+      const pathToProjectsTranslations: string[] = i18n.language.split('-');
       try {
-        const response = await fetch(`/json/${i18n.language}/projects.json`);
+        const response = await fetch(`/json/${pathToProjectsTranslations[0]}/projects.json`);
         const data: ProjectType[] = await response.json();
 
         const filteredData = data.map(({ id, poster, title }) => ({

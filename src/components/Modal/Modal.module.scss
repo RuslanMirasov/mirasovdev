@@ -1,0 +1,40 @@
+.Backdrop {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: var(--modal-backdrop);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  text-align: center;
+  transition: 0.3s;
+  opacity: 0;
+  &.Visible {
+    opacity: 1;
+  }
+}
+
+.ModalWrapper {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.Modal {
+  display: block;
+  width: auto;
+  position: relative;
+  perspective: 1000px;
+}

@@ -12,6 +12,13 @@ const LandingEffect: React.FC = () => {
         const landingPage3 = document.querySelector<HTMLElement>(`[data-name="landingPage3"]`);
 
         const handleMove = (event: MouseEvent) => {
+          const target = event.target as Element | null;
+          if (!target) return;
+
+          const currentSection = target.closest('section') as HTMLElement | null;
+          if (!currentSection) return;
+          if (!currentSection.classList.contains('section-hero')) return;
+
           const mouseX = event.clientX - window.innerWidth + window.innerWidth / 2;
           const mouseY = window.innerHeight / 2 - event.clientY;
           const hasScrolled = window.scrollY - window.innerHeight;

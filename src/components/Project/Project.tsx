@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Title } from 'components';
+import { useModal } from 'hooks/useModal';
+import { Title, Image, ProjectDescription } from 'components';
 import css from './Project.module.scss';
 
 interface ProjectData {
@@ -13,6 +14,7 @@ interface ProjectProp {
 }
 
 const Project: React.FC<ProjectProp> = ({ project }) => {
+  const { openModal } = useModal();
   const [isVisible, setIsVisible] = useState<boolean>(false);
   const { id, title, poster } = project;
 
@@ -23,13 +25,13 @@ const Project: React.FC<ProjectProp> = ({ project }) => {
   }, []);
 
   const handleClick = (): void => {
-    console.log(`Open POpup with id ${id}`);
+    openModal(<ProjectDescription id={id} />);
   };
 
   return (
     <li key={id} className={projectClasses} onClick={handleClick}>
       <div className={css.Image}>
-        <img src={poster} alt={title} />
+        <Image src={poster} alt={title} width="370" height="370" />
       </div>
       <div className={css.Description}>
         <Title tag="h3" size="h3">

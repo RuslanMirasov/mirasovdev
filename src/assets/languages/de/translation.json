@@ -45,5 +45,9 @@
   "Download_my_CV": "Meinen Lebenslauf",
   "Phone": "Telefon",
   "contacts_title": "Lassen Sie uns gemeinsam etwas Cooles entwickeln",
-  "contacts_subtitle": "Füllen Sie das Formular aus und ich werde Sie kontaktieren"
+  "contacts_subtitle": "Füllen Sie das Formular aus und ich werde Sie kontaktieren",
+  "features": "Merkmale bei der Durchführung der Aufgabe",
+  "confirm_popup_title": "Anfrage gesendet",
+  "confirm_popup_text": "Vielen Dank für Ihr Feedback. Ich werde mich so schnell wie möglich unter der angegebenen E-Mail mit Ihnen in Verbindung setzen.",
+  "close": "Schließen"
 }

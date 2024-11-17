@@ -17,7 +17,7 @@
     "number": 2,
     "category": ["front-end"],
     "poster": "https://ruslanmirasov.github.io/spa_salon_nectar/assets/img/certificate/2@2x.jpg",
-    "poster2": "https://ruslanmirasov.github.io/spa_salon_nectar/assets/img/certificate/2@2x.jpg",
+    "poster2": "https://raw.githubusercontent.com/RuslanMirasov/spa_salon_nectar/main/poster/template.jpg",
     "title": "NECTAR SPA.SALON",
     "description": "Это веб-приложение позволяет пользователям создавать, управлять и отслеживать свои задачи.",
     "stack": ["HTML", "CSS", "JavaScript", "React"],

@@ -45,5 +45,9 @@
   "Download_my_CV": "Download my CV",
   "Phone": "Phone",
   "contacts_title": "Let's develop something cool together",
-  "contacts_subtitle": "Fill out the form and I will contact you shortly"
+  "contacts_subtitle": "Fill out the form and I will contact you shortly",
+  "features": "Features in the performance of a task",
+  "confirm_popup_title": "Request sent",
+  "confirm_popup_text": "Thank you for the feedback, I will contact you at the email provided as soon as possible.",
+  "close": "Close"
 }

@@ -1,0 +1,44 @@
+.Image {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  img {
+    position: relative;
+    opacity: 0;
+    transition: 1s;
+  }
+  &.Loaded {
+    img {
+      opacity: 1;
+    }
+    &:before {
+      display: none;
+    }
+  }
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    border-left: 2px solid var(--text-color);
+    border-top: 2px solid var(--text-color);
+    border-right: 2px solid rgba(0, 0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    animation: rotate 0.3s linear infinite;
+    z-index: 2;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
