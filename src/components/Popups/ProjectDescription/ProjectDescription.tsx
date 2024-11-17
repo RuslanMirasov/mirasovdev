@@ -50,9 +50,7 @@ const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ id }) => {
     });
   }, [project]);
 
-  if (!project) {
-    return <div className={css.Loading}></div>;
-  }
+  if (!project) return null;
 
   return (
     <div className={`${css.ProjectDescription} ${isLoaded ? css.IsLoaded : ''}`}>

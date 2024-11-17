@@ -1,5 +1,6 @@
 //Basic
 export { default as App } from './App/App';
+export { default as Preloader } from './Preloader/Preloader';
 export { default as Layout } from './Layout/Layout';
 export { default as Section } from './Section/Section';
 export { default as Container } from './Container/Container';
