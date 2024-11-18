@@ -1,0 +1,23 @@
+.MyPhoto {
+  display: block;
+  width: 100%;
+  picture {
+    transition: background 0.3s;
+    background: var(--about_photo_bg);
+  }
+  h3 {
+    margin-top: -20px;
+    margin-left: 24px;
+    max-width: 200px;
+    text-shadow: 0px 0px 20px var(--shadow);
+  }
+  @media (max-width: 1023px) {
+    h3 {
+      font-size: 28px;
+      margin-top: -12px;
+    }
+  }
+  @media (max-width: 767px) {
+    margin-top: 30px;
+  }
+}

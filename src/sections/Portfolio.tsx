@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Section, Container, TitleBox, Title, Text, Projects } from 'components';
 
-const Portfolio = () => {
+const Portfolio: React.FC = () => {
   const { t } = useTranslation();
 
   return (

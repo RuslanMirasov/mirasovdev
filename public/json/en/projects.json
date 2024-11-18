@@ -1,16 +1,57 @@
 [
   {
-    "id": 1,
-    "number": 1,
-    "category": ["front-end", "back-end"],
-    "poster": "https://ruslanmirasov.github.io/pisaruk/assets/slide3-739f883d.jpg",
-    "poster2": "https://ruslanmirasov.github.io/pisaruk/assets/slide3-739f883d.jpg",
-    "title": "DMITRIY PISARUK",
-    "description": "Это API предоставляет доступ к базе данных для мобильного приложения.",
-    "stack": ["Node.js", "Express", "MongoDB"],
+    "id": 11,
+    "number": 11,
+    "category": ["Front-End"],
+    "poster": "/images/projects/3/poster.jpg",
+    "poster2": "/images/projects/3/poster2.jpg",
+    "title": "TORNADO LANDING",
+    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
     "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
     "features": ["Аутентификация", "Авторизация", "CRUD операции"],
-    "client": "Компания XYZ"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
+  },
+  {
+    "id": 0,
+    "number": 0,
+    "category": ["Front-End"],
+    "poster": "/images/projects/2/poster.jpg",
+    "poster2": "/images/projects/2/poster2.jpg",
+    "title": "DIROL WEBSITE",
+    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
+    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
+    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "category": ["Front-End"],
+    "poster": "/images/projects/1/poster.jpg",
+    "poster2": "/images/projects/1/poster2.jpg",
+    "title": "ALYONKA CHOCOLATE",
+    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
+    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
+    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 2,
@@ -23,7 +64,12 @@
     "stack": ["HTML", "CSS", "JavaScript", "React"],
     "links": ["https://spa.mnectar.eu/", "https://github.com/RuslanMirasov/spa_salon_nectar"],
     "features": ["Список задач", "Фильтрация", "Поиск"],
-    "client": "Компания ABC"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 3,
@@ -46,7 +92,12 @@
       "Скролл-фильтр преподавателей",
       "Интерактивная карта Google Map API"
     ],
-    "client": "ООО Магазинчик"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 4,
@@ -59,7 +110,12 @@
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     "links": ["https://example.com/project3"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": "ООО Магазинчик"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 5,
@@ -72,7 +128,12 @@
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     "links": ["https://example.com/project3"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": "ООО Магазинчик"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 6,
@@ -85,7 +146,12 @@
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     "links": ["https://example.com/project3"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": "ООО Магазинчик"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 7,
@@ -98,7 +164,12 @@
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     "links": ["https://usely.ru/"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": "Brainst.pro"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 8,
@@ -111,7 +182,12 @@
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     "links": ["https://example.com/project3"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": "ООО Магазинчик"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   },
   {
     "id": 9,
@@ -124,6 +200,29 @@
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
     "links": ["https://guinot-salon.ru/"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": "ООО Магазинчик"
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "category": ["front-end", "back-end"],
+    "poster": "https://ruslanmirasov.github.io/pisaruk/assets/slide3-739f883d.jpg",
+    "poster2": "https://ruslanmirasov.github.io/pisaruk/assets/slide3-739f883d.jpg",
+    "title": "DMITRIY PISARUK",
+    "description": "Это API предоставляет доступ к базе данных для мобильного приложения.",
+    "stack": ["Node.js", "Express", "MongoDB"],
+    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
+    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
+    "client": [
+      "Digital communications studio",
+      "Human Touch",
+      "https://human-touch.ru/",
+      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
+    ]
   }
 ]

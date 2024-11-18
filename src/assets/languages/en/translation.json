@@ -11,7 +11,6 @@
   "to_order": "To Order",
   "portfolio_subtitle": "Here I would like to introduce a few of my projects that I have been working on in recent years.",
   "portfolio_button_more": "Load more...",
-  "about_title": "ABOUT ME",
   "summary": "Summary",
   "summary_text": "I am an experienced frontend developer with commercial experience since 2015, having worked for both web studios and as a freelancer. My technology stack includes proficiency in HTML, CSS, JavaScript and React. I work well in a team environment and am a quick learner. Currently looking for a company for long term collaboration.",
   "place_of_birth": "Place of birth",
@@ -49,5 +48,6 @@
   "features": "Features in the performance of a task",
   "confirm_popup_title": "Request sent",
   "confirm_popup_text": "Thank you for the feedback, I will contact you at the email provided as soon as possible.",
-  "close": "Close"
+  "close": "Close",
+  "Employer": "Employer"
 }

@@ -11,7 +11,6 @@
   "to_order": "Zur Bestellung",
   "portfolio_subtitle": "Hier möchte ich ein paar meiner Projekte vorstellen, an denen ich in den letzten Jahren gearbeitet habe.",
   "portfolio_button_more": "Mehr herunterladen...",
-  "about_title": "ÜBER MICH",
   "summary": "Inhaltsangabe",
   "summary_text": "Ich bin ein erfahrener Frontend-Entwickler mit kommerzieller Erfahrung seit 2015, der sowohl für Webstudios als auch als Freiberufler gearbeitet hat. Mein Technologie-Stack umfasst Kenntnisse in HTML, CSS, JavaScript und React. Ich arbeite gut in einer Teamumgebung und lerne schnell. Derzeit suche ich ein Unternehmen für eine langfristige Zusammenarbeit.",
   "place_of_birth": "Geburtsort",
@@ -49,5 +48,6 @@
   "features": "Merkmale bei der Durchführung der Aufgabe",
   "confirm_popup_title": "Anfrage gesendet",
   "confirm_popup_text": "Vielen Dank für Ihr Feedback. Ich werde mich so schnell wie möglich unter der angegebenen E-Mail mit Ihnen in Verbindung setzen.",
-  "close": "Schließen"
+  "close": "Schließen",
+  "Employer": "Arbeitgeber"
 }

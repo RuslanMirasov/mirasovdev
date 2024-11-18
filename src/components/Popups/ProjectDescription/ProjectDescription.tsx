@@ -14,7 +14,7 @@ interface ProjectType {
   stack: string[];
   links: string[];
   features: string[];
-  client: string;
+  client: string[];
 }
 
 interface ProjectDescriptionProps {
@@ -74,11 +74,19 @@ const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ id }) => {
         <div className={`${css.DescriptionWrapper} custom-scrollbar`}>
           <Text size="big">{project.description}</Text>
           <b>{t('features')}:</b>
+
           <ul className={css.Features}>
             {project.features.map((featur, index) => (
               <li key={index}>{featur}</li>
             ))}
           </ul>
+
+          <b>{t('Employer')}:</b>
+          <span>
+            <a href={project.client[2]} rel="noreferrer" target="_blank">
+              <Image src={project.client[3]} alt={`${project.client[0]} ${project.client[1]}`} height={40} />
+            </a>
+          </span>
         </div>
 
         <div className={css.Buttons}>

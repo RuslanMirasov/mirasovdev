@@ -1,0 +1,51 @@
+[class*='overflow-visible'] {
+  overflow: visible;
+  h2 {
+    margin-bottom: 40px;
+  }
+}
+
+.SectionSticky {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+  gap: 30px;
+  @media (max-width: 1023px) {
+    h2 {
+      font-size: 48px;
+    }
+  }
+}
+
+.Sidebar {
+  position: sticky;
+  top: 100px;
+  width: calc(33.333333% - 15px);
+}
+
+.Content {
+  width: calc(66.666666% - 15px);
+}
+
+@media (max-width: 767px) {
+  .Sidebar {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .Content {
+    width: 100%;
+  }
+
+  [class*='overflow-visible'] {
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2 {
+      margin-bottom: 0px;
+    }
+  }
+}

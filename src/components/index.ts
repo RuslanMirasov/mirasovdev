@@ -3,6 +3,7 @@ export { default as App } from './App/App';
 export { default as Preloader } from './Preloader/Preloader';
 export { default as Layout } from './Layout/Layout';
 export { default as Section } from './Section/Section';
+export { default as SectionSticky } from './SectionSticky/SectionSticky';
 export { default as Container } from './Container/Container';
 export { default as Header } from './Header/Header';
 export { default as Footer } from './Footer/Footer';
@@ -21,6 +22,7 @@ export { default as IconLanding } from './IconLanding/IconLanding';
 export { default as LandingEffect } from './LandingEffect/LandingEffect';
 export { default as Projects } from './Projects/Projects';
 export { default as Project } from './Project/Project';
+export { default as AboutMeSidebar } from './AboutMeSidebar/AboutMeSidebar';
 
 //Buttons
 export { default as ButtonsList } from './Buttons/ButtonsList/ButtonsList';
