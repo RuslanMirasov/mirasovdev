@@ -78,6 +78,12 @@ const Confirm: React.FC<SvgProps> = ({ size, color, fill }) => (
   </svg>
 );
 
+const ArrowDown: React.FC<SvgProps> = ({ size = 40, color }) => (
+  <svg width={size} height={size} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10 15L20 25L30 15" stroke={color} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+  </svg>
+);
+
 const Icon: React.FC<IconProps> = ({ name = 'logo', size, color = 'currentColor', fill }) => {
   return (
     <>
@@ -86,6 +92,7 @@ const Icon: React.FC<IconProps> = ({ name = 'logo', size, color = 'currentColor'
       {name === 'github' && <Github size={size} color={color} fill={fill} />}
       {name === 'confirm' && <Confirm size={size} color={color} fill={fill} />}
       {name === 'scrolldown' && <Scrolldown size={size} color={color} fill={fill} />}
+      {name === 'arrowdown' && <ArrowDown size={size} color={color} fill={fill} />}
     </>
   );
 };

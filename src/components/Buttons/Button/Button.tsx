@@ -6,6 +6,7 @@ interface ButtonProps {
   type?: 'button' | 'submit' | 'reset';
   to?: string;
   href?: string;
+  target?: string;
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   variant?: 'BorderLight' | 'BorderDark' | 'Black' | 'White';
   size?: 'big' | 'small';

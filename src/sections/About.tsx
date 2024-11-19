@@ -1,47 +1,39 @@
 import { useTranslation } from 'react-i18next';
-import { SectionSticky, AboutMeSidebar, ButtonsList, Button, Text } from 'components';
+import { Accordeon, SectionSticky, AboutMeSidebar, Text } from 'components';
 
 const About: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <SectionSticky extraClass="section-about" sidebar={<AboutMeSidebar />} title={t('about')}>
-      <Text size="big">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis
-        repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet
-        consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos, soluta
-        voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
-        rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium
-        aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti,
-        ab placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero
-        officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem!
-        Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit
-        amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos,
-        soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus
-        praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae
-        harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates
-        veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat
-        expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem
-        ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus
-        dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur
-        adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate
-        voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto
-        molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam
-        voluptates veritatis vero officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab
-        placeat expedita autem! Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero
-        officia?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem!
-        Officiis repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?Lorem ipsum dolor, sit
-        amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis repellendus dignissimos,
-        soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?
-      </Text>
-      <Text>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste rerum iusto molestiae harum deleniti, ab placeat expedita autem! Officiis
-        repellendus dignissimos, soluta voluptate voluptatibus praesentium aliquam voluptates veritatis vero officia?
-      </Text>
-      <ButtonsList>
-        <Button variant="BorderDark">{t('Download_my_CV')}</Button>
-      </ButtonsList>
+      <Accordeon title={t('summary')} open={true}>
+        <Text>{t('summary_text_1')}</Text>
+        <Text>{t('summary_text_2')}</Text>
+        <Text>{t('summary_text_3')}</Text>
+        <Text>{t('summary_text_4')}</Text>
+        <Text>{t('summary_text_5')}</Text>
+      </Accordeon>
+
+      <Accordeon title={t('Education')}>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
+          doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
+        </Text>
+      </Accordeon>
+
+      <Accordeon title={t('Education')}>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
+          doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
+        </Text>
+      </Accordeon>
+
+      <Accordeon title={t('languages')}>
+        <Text>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
+          doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
+        </Text>
+      </Accordeon>
     </SectionSticky>
   );
 };
