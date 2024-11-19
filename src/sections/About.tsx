@@ -21,7 +21,7 @@ const About: React.FC = () => {
         </Text>
       </Accordeon>
 
-      <Accordeon title={t('Education')}>
+      <Accordeon title={t('work_experience')}>
         <Text>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
           doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
