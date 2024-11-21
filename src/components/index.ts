@@ -24,6 +24,7 @@ export { default as Projects } from './Projects/Projects';
 export { default as Project } from './Project/Project';
 export { default as AboutMeSidebar } from './AboutMeSidebar/AboutMeSidebar';
 export { default as Accordeon } from './Accordeon/Accordeon';
+export { default as SkillsCollection } from './SkillsCollection/SkillsCollection';
 
 //Buttons
 export { default as ButtonsList } from './Buttons/ButtonsList/ButtonsList';

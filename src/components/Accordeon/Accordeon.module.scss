@@ -12,6 +12,7 @@
       transform: rotate(-180deg);
     }
     .AccordeonHead {
+      cursor: auto;
       strong {
         transition: transform 0.3s, color 0.3s;
         transform: translate(-4px, -42px);
@@ -33,6 +34,7 @@
   width: 100%;
   min-height: 78px;
   padding: 20px 78px 20px 20px;
+  cursor: pointer;
 
   strong {
     display: inline-block;

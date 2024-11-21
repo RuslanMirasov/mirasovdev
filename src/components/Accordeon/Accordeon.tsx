@@ -49,9 +49,9 @@ const Accordeon: React.FC<AccordeonProps> = ({ title, open = false, children }) 
 
   return (
     <div className={accordeonClasses}>
-      <div className={css.AccordeonHead}>
-        <strong onClick={handleOpenToggle}>{title}</strong>
-        <button className={css.Arrow} onClick={handleOpenToggle}>
+      <div className={css.AccordeonHead} onClick={!isOpen ? handleOpenToggle : undefined}>
+        <strong onClick={isOpen ? handleOpenToggle : undefined}>{title}</strong>
+        <button className={css.Arrow} onClick={isOpen ? handleOpenToggle : undefined}>
           <Icon name="arrowdown" color="var(--text-color)" />
         </button>
       </div>

@@ -1,0 +1,55 @@
+.SkillsCollection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  li {
+    display: flex;
+    position: relative;
+    width: calc((100% - 20px * 4) / 5);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    transition: 0.3s;
+    border-radius: 10px;
+    &:before {
+      content: '';
+      display: block;
+      width: 100%;
+      padding-top: 100%;
+    }
+    svg {
+      position: absolute;
+      transition: 0.3s;
+      width: 70%;
+      max-height: 50%;
+      color: var(--text-color);
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .SkillsCollection {
+    li {
+      width: calc((100% - 20px * 3) / 4);
+    }
+  }
+}
+
+@media (max-width: 413px) {
+  .SkillsCollection {
+    gap: 10px;
+    li {
+      width: calc((100% - 10px * 2) / 3);
+      border-radius: 6px;
+      svg {
+        width: 80%;
+        max-height: 64%;
+      }
+    }
+  }
+}

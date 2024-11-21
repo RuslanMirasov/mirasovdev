@@ -6,7 +6,7 @@ const About: React.FC = () => {
 
   return (
     <SectionSticky extraClass="section-about" sidebar={<AboutMeSidebar />} title={t('about')}>
-      <Accordeon title={t('summary')} open={true}>
+      <Accordeon title={t('summary')}>
         <Text>{t('summary_text_1')}</Text>
         <Text>{t('summary_text_2')}</Text>
         <Text>{t('summary_text_3')}</Text>
