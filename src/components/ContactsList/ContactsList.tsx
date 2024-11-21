@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import { Icon } from 'components';
 import css from './ContactsList.module.scss';
 
@@ -10,11 +11,12 @@ interface Contacts {
 }
 
 const ContactsList: React.FC = () => {
+  const { t } = useTranslation();
   const contactsList: Array<Contacts> = [
     {
       _id: 1,
       icon: 'phone',
-      label: 'Phone',
+      label: t('Phone'),
       url: 'tel:+7490000000',
       text: '+49 (000) 000-00-00',
     },
@@ -28,15 +30,15 @@ const ContactsList: React.FC = () => {
     {
       _id: 3,
       icon: 'linkedin',
-      label: 'LinkedIn',
-      url: 'mailto:info@mirasov.dev',
-      text: '@mirasovdev',
+      label: 'Linked In',
+      url: 'https://www.linkedin.com/in/ruslan-mirasov/',
+      text: 'in/ruslan-mirasov',
     },
     {
       _id: 4,
       icon: 'telegram',
       label: 'Telegram',
-      url: '#',
+      url: 'https://t.me/mirasovdev',
       text: '@mirasovdev',
     },
   ];
@@ -44,12 +46,15 @@ const ContactsList: React.FC = () => {
     <ul className={css.ContactsList}>
       {contactsList.map(({ _id, icon, label, url, text }) => (
         <li key={_id}>
-          <a href={url} className={css.Icon}>
+          <a href={url} className={css.Icon} target="_blank" rel="noreferrer">
             <Icon name={icon} />
           </a>
+
           <p className={css.Text}>
             <span>{label}</span>
-            <a href={url}>{text}</a>
+            <a href={url} target="_blank" rel="noreferrer">
+              {text}
+            </a>
           </p>
         </li>
       ))}

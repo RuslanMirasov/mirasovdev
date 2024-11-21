@@ -40,6 +40,9 @@ export { default as TitleBox } from './Typography/TitleBox/TitleBox';
 export { default as Title } from './Typography/Title/Title';
 export { default as Text } from './Typography/Text/Text';
 
+//Forms
+export { default as RequestForm } from './RequestForm/RequestForm';
+
 //Popups
 export { default as ProjectDescription } from './Popups/ProjectDescription/ProjectDescription';
 export { default as ConfirmPopup } from './Popups/ConfirmPopup/ConfirmPopup';

@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { SectionSticky, Title, ContactsList } from 'components';
+import { SectionSticky, Title, ContactsList, RequestForm } from 'components';
 
 const Contacts: React.FC = () => {
   const { t } = useTranslation();
@@ -14,6 +14,7 @@ const Contacts: React.FC = () => {
       }
     >
       <ContactsList />
+      <RequestForm />
     </SectionSticky>
   );
 };
