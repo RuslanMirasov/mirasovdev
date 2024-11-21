@@ -1,0 +1,80 @@
+.ContactsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  li {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    align-content: center;
+    width: calc((100% - 30px) / 2);
+  }
+}
+
+.Icon {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+  background: var(--modal-project-image-bg);
+  svg {
+    width: 60%;
+    color: var(--text-color);
+  }
+}
+
+.Text {
+  display: flex;
+  flex-direction: column;
+  span {
+    opacity: 0.6;
+    font-weight: 500;
+  }
+  a {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 1023px) {
+  .ContactsList {
+    gap: 20px;
+    li {
+      width: calc((100% - 20px) / 2);
+    }
+  }
+  .Icon {
+    width: 50px;
+    height: 50px;
+  }
+  .Text {
+    a {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .ContactsList {
+    margin-top: 10px;
+    li {
+      width: 100%;
+    }
+  }
+  .Icon {
+    width: 50px;
+    height: 50px;
+  }
+  .Text {
+    a {
+      font-size: 20px;
+      line-height: 1.1;
+    }
+  }
+}

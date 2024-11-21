@@ -369,6 +369,47 @@ const Npm: React.FC<SvgProps> = () => (
   </svg>
 );
 
+const Phone: React.FC<SvgProps> = ({ color }) => (
+  <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M8 20.5L16 20.5C16.8284 20.5 17.5 19.8284 17.5 19L17.5 5C17.5 4.17157 16.8284 3.5 16 3.5L8 3.5C7.17157 3.5 6.5 4.17157 6.5 5L6.5 15C6.5 15.2761 6.27614 15.5 6 15.5C5.72386 15.5 5.5 15.2761 5.5 15L5.5 5C5.5 3.61929 6.61929 2.5 8 2.5L16 2.5C17.3807 2.5 18.5 3.61929 18.5 5L18.5 19C18.5 20.3807 17.3807 21.5 16 21.5L8 21.5C6.61929 21.5 5.5 20.3807 5.5 19C5.5 18.1716 6.17157 17.5 7 17.5L15 17.5C15.2761 17.5 15.5 17.7239 15.5 18C15.5 18.2761 15.2761 18.5 15 18.5L7 18.5C6.72386 18.5 6.5 18.7239 6.5 19C6.5 19.8284 7.17157 20.5 8 20.5Z"
+      fill={color}
+    />
+  </svg>
+);
+
+const Email: React.FC<SvgProps> = ({ color }) => (
+  <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      stroke={color}
+      strokeWidth="1.5"
+      d="M22.6,26c-2.2,1.5-5,2.3-8,1.9c-5.5-0.6-10-5.1-10.6-10.6C3.3,10.1,8.9,4,16,4c0.3,0,0.6,0,0.8,0 c7.5,0.5,12.4,8.3,10,15.5l0,0.1C26.3,21,25,22,23.5,22h0c-1.9,0-3.5-1.6-3.5-3.5V11"
+    />
+    <path stroke={color} strokeWidth="1.5" d="M16,21L16,21c-2.2,0-4-1.8-4-4v-2c0-2.2,1.8-4,4-4h0c2.2,0,4,1.8,4,4v2C20,19.2,18.2,21,16,21z" />
+  </svg>
+);
+
+const LinkedIn: React.FC<SvgProps> = ({ color }) => (
+  <svg viewBox="0 0 370 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M72 102C91.33 102 107 86.33 107 67C107 47.67 91.33 32 72 32C52.67 32 37 47.67 37 67C37 86.33 52.67 102 72 102Z" fill={color} />
+    <path
+      d="M140.421 119.727V310.984H200.203V216.403C200.203 191.446 204.93 167.277 236.082 167.277C266.806 167.277 267.186 195.811 267.186 217.979V311H327V206.115C327 154.594 315.834 115 255.211 115C226.105 115 206.595 130.866 198.617 145.881H197.808V119.727H140.421ZM43 119.727H102.877V310.984H43V119.727Z"
+      fill={color}
+    />
+  </svg>
+);
+
+const Telegram: React.FC<SvgProps> = ({ color }) => (
+  <svg viewBox="0 0 370 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M303.996 50.795L15.2222 161.986C-4.48541 169.89 -4.3714 180.868 11.6064 185.763L85.7461 208.856L257.284 100.788C265.395 95.8602 272.805 98.5111 266.714 103.91L127.735 229.153H127.702L127.735 229.169L122.62 305.476C130.113 305.476 133.419 302.044 137.621 297.995L173.632 263.029L248.537 318.275C262.349 325.87 272.268 321.966 275.705 305.508L324.876 74.1164C329.909 53.9664 317.172 44.8427 303.996 50.795Z"
+      fill={color}
+    />
+  </svg>
+);
+
 const Icon: React.FC<IconProps> = ({ name = 'logo', size, color = 'currentColor', fill }) => {
   return (
     <>
@@ -397,6 +438,10 @@ const Icon: React.FC<IconProps> = ({ name = 'logo', size, color = 'currentColor'
       {name === 'vercele' && <Vercele size={size} color={color} fill={fill} />}
       {name === 'vscode' && <Vscode size={size} color={color} fill={fill} />}
       {name === 'npm' && <Npm size={size} color={color} fill={fill} />}
+      {name === 'phone' && <Phone size={size} color={color} fill={fill} />}
+      {name === 'email' && <Email size={size} color={color} fill={fill} />}
+      {name === 'linkedin' && <LinkedIn size={size} color={color} fill={fill} />}
+      {name === 'telegram' && <Telegram size={size} color={color} fill={fill} />}
     </>
   );
 };

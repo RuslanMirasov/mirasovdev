@@ -1,8 +1,13 @@
 import { Icon } from 'components';
 import css from './SkillsCollection.module.scss';
 
+interface Skills {
+  id: number;
+  name: string;
+}
+
 const SkillsCollection: React.FC = () => {
-  const skillsData: Array<{ id: number; name: string }> = [
+  const skillsData: Array<Skills> = [
     { id: 1, name: 'html' },
     { id: 2, name: 'css' },
     { id: 3, name: 'scss' },
