@@ -22,6 +22,7 @@
 }
 
 :root {
+  --font: 'Poppins', sans-serif;
   --white: #fff;
   --black: #000;
   --bg: #1a1a1a;
@@ -40,19 +41,15 @@
   --svg-effect-bg: #252525;
   --svg-effect-bg2: #1d1d1d;
   --svg-effect-bg-border: #424242;
-
   --color-hover: #444444;
-  --green-color: #229631;
-  --red-color: #c22727;
-  --yellow-color: #ec891f;
-  --blue-color: #124f94;
-
   --gray: #a5a5a5;
   --contacts-icon-color: #424242;
   --footer-background-color: #000000;
   --menu_mobil_bg: #1c1c1c;
   --about_photo_bg: #303030;
   --cubic: 0.3s;
+
+  --invalid: red;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -127,7 +124,7 @@ img {
   overflow-y: auto;
   background: var(--bg);
   color: var(--text-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font);
   font-size: 13px;
   line-height: 1.5;
   font-weight: 500;
@@ -160,59 +157,81 @@ img {
   z-index: 2;
 }
 
-//FORM VALIDATION
+textarea {
+  resize: none;
+}
 
-.labelError {
-  display: flex;
-  width: 100% !important;
-  position: relative;
-  justify-content: flex-start;
-  align-items: flex-end;
-  overflow: hidden;
-  font-size: 12px;
-  color: var(--red-color);
-  height: auto;
-  padding-top: 6px;
-  opacity: 0;
-  transform: translate(10px, 0px);
-  transition: 0.4s ease-in-out;
-  &.active {
-    opacity: 1;
-    transform: translate(0px, 0px);
-  }
+fieldset {
+  border: none;
 }
 
 input,
 textarea {
-  &.invalid {
-    border: 1px solid var(--red-color);
-    color: var(--red-color);
-  }
-  &.valid {
-    border: 1px solid var(--green-color) !important;
+  transition: 0.3s;
+  &::placeholder {
+    transition: inherit;
     color: var(--text-color);
+    transition: 0.3s;
+    opacity: 0.7;
   }
-}
-
-input[type='hidden'],
-input[type='radio'],
-input[type='checkbox'] {
-  &.invalid {
-    ~ div {
-      border: 1px solid var(--red-color);
-    }
-  }
-}
-input[type='hidden'] {
-  &.valid {
-    ~ div {
-      border: 1px solid var(--green-color);
+  &:focus {
+    &::placeholder {
+      opacity: 0;
     }
   }
 }
 
-.color {
-  color: var(--color);
+input[type='checkbox'],
+input[type='radio'] {
+  display: none;
+}
+
+input[type='checkbox'] + label.invalid {
+  &:before {
+    border: 1px solid var(--invalid);
+  }
+}
+input[type='checkbox'] + label {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: auto;
+  position: relative;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-left: 34px;
+  cursor: pointer;
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+
+  &:after {
+    height: 12px;
+    border-radius: 0px;
+    border-left: 4px solid var(--white);
+    border-bottom: 4px solid var(--white);
+    transform: scale(0.5) rotate(-50deg) translate(-3px, 3px);
+    opacity: 0;
+  }
+}
+
+input[type='checkbox']:checked + label {
+  &:before {
+    border: 1px solid var(--color);
+    background: var(--color);
+  }
+
+  &:after {
+    opacity: 1;
+  }
 }
 
 //CUSTOM SCROLLBAR

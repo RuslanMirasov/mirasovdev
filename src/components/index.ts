@@ -41,6 +41,7 @@ export { default as Title } from './Typography/Title/Title';
 export { default as Text } from './Typography/Text/Text';
 
 //Forms
+export { default as InputError } from './Forms/InputError/InputError';
 export { default as RequestForm } from './RequestForm/RequestForm';
 
 //Popups

@@ -44,6 +44,7 @@
     background: var(--color-hover);
   }
   &[data-loading='true'] {
+    pointer-events: none;
     span {
       color: rgba(0, 0, 0, 0);
     }

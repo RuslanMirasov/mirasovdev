@@ -53,5 +53,17 @@
   "confirm_popup_title": "Request sent",
   "confirm_popup_text": "Thank you for the feedback, I will contact you at the email provided as soon as possible.",
   "close": "Close",
-  "Employer": "Employer"
+  "Employer": "Employer",
+  "Invalid_email_format": "Invalid email format",
+  "Email_is_required": "Email is required",
+  "Invalid_URL_format": "Invalid URL format",
+  "Figma_link": "Link to Figma design layout",
+  "required_field": "This field is required",
+  "important_field": "This field is important",
+  "your_name": "Your name",
+  "your_email": "Your e-mail",
+  "your_comment": "Describe the task",
+  "agree": "By clicking the 'Send request' button, you agree to the",
+  "privacy_policy": "Privacy Policy",
+  "form_button_text": "Send request"
 }

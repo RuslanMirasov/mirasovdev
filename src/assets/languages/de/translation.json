@@ -53,5 +53,17 @@
   "confirm_popup_title": "Anfrage gesendet",
   "confirm_popup_text": "Vielen Dank für Ihr Feedback. Ich werde mich so schnell wie möglich unter der angegebenen E-Mail mit Ihnen in Verbindung setzen.",
   "close": "Schließen",
-  "Employer": "Arbeitgeber"
+  "Employer": "Arbeitgeber",
+  "Invalid_email_format": "Ungültiges E-Mail Format",
+  "Email_is_required": "E-Mail ist erforderlich",
+  "Invalid_URL_format": "Ungültiges URL-Format",
+  "Figma_link": "Link zum Figma-Designlayout",
+  "required_field": "Dieses Feld ist erforderlich",
+  "important_field": "Dieses Feld ist wichtig",
+  "your_name": "Ihr Name",
+  "your_email": "Ihre E-Mail",
+  "your_comment": "Beschreiben Sie die Aufgabe",
+  "agree": "Mit dem Klick auf die Schaltfläche 'Anfrage senden' akzeptieren Sie die",
+  "privacy_policy": "Datenschutzrichtlinie",
+  "form_button_text": "Anfrage senden"
 }
