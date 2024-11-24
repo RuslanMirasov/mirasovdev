@@ -4,10 +4,14 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
 
 import { useTranslation } from 'react-i18next';
-import { TitleBox, Title, Text, Button, InputError } from 'components';
+import { TitleBox, Title, Text, Button, InputError, ConfirmPopup } from 'components';
 import css from './RequestForm.module.scss';
+import { useModal } from 'hooks/useModal';
 
 interface IFeedbackForm {
+  access_key: string;
+  subject: string;
+  from_name: string;
   name?: string;
   email: string;
   design?: string;
@@ -16,10 +20,15 @@ interface IFeedbackForm {
 }
 
 const RequestForm: React.FC = () => {
+  const WEB3FORM_API_KEY: string = '286ef5be-5204-45df-8865-178dc6642dc8';
   const { t } = useTranslation();
+  const { openModal } = useModal();
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   const validationSchema = Yup.object().shape({
+    access_key: Yup.string().required(),
+    subject: Yup.string().required(),
+    from_name: Yup.string().required(),
     name: Yup.string(),
     email: Yup.string().email(t('Invalid_email_format')).required(t('required_field')),
     design: Yup.string().url(t('Invalid_URL_format')),
@@ -40,9 +49,25 @@ const RequestForm: React.FC = () => {
   const onSubmit: SubmitHandler<IFeedbackForm> = async data => {
     setIsLoading(true);
     try {
-      console.log('Form submitted successfully');
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send form');
+      }
+
+      const result = await response.json();
+      console.log('Form submitted successfully', result);
+
+      openModal(<ConfirmPopup />);
     } catch (error) {
       console.error('Send form error: ', error);
+      // Логика обработки ошибки
     } finally {
       setIsLoading(false);
       reset();
@@ -60,6 +85,9 @@ const RequestForm: React.FC = () => {
       </TitleBox>
 
       <form className={css.Form} onSubmit={handleSubmit(onSubmit)}>
+        <input type="hidden" value={WEB3FORM_API_KEY} {...register('access_key')} />
+        <input type="hidden" value="MIRASOV.DEV" {...register('from_name')} />
+        <input type="hidden" value="New Request" {...register('subject')} />
         <div className={css.InputWrapper} data-col="2">
           <input
             id="name"

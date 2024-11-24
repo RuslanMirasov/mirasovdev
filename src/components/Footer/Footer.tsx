@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { Container, Logo, Text } from '../../components';
+import { Container, Logo } from '../../components';
 import css from './Footer.module.scss';
 
 const Footer: React.FC = () => {
