@@ -108,7 +108,7 @@
     "title": "POWER PULSE.APP",
     "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
     "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://example.com/project3"],
+    "links": ["https://github.com/kurshatsov-andrii/leader-code-team-power-pulse"],
     "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
     "client": [
       "Digital communications studio",

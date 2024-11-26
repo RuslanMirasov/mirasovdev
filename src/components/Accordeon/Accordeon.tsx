@@ -28,7 +28,7 @@ const Accordeon: React.FC<AccordeonProps> = ({ title, open = false, children }) 
 
   useEffect(() => {
     bodyHeightModify();
-  }, [isOpen, bodyHeightModify]);
+  }, [isOpen, bodyHeightModify, children]);
 
   useEffect(() => {
     const handleResize = debounce(() => {

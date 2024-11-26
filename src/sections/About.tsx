@@ -1,39 +1,28 @@
 import { useTranslation } from 'react-i18next';
-import { Accordeon, SectionSticky, AboutMeSidebar, Text } from 'components';
+import {
+  Accordeon,
+  SectionSticky,
+  AboutMeSidebar,
+  SummaryEn,
+  SummaryDe,
+  EducationEn,
+  EducationDe,
+  WorkExperienceEn,
+  WorkExperienceDe,
+  LanguagesEn,
+  LanguagesDe,
+} from 'components';
 
 const About: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.language.split('-')[0];
 
   return (
     <SectionSticky extraClass="section-about" sidebar={<AboutMeSidebar />} title={t('about')}>
-      <Accordeon title={t('summary')}>
-        <Text>{t('summary_text_1')}</Text>
-        <Text>{t('summary_text_2')}</Text>
-        <Text>{t('summary_text_3')}</Text>
-        <Text>{t('summary_text_4')}</Text>
-        <Text>{t('summary_text_5')}</Text>
-      </Accordeon>
-
-      <Accordeon title={t('Education')}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
-          doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
-        </Text>
-      </Accordeon>
-
-      <Accordeon title={t('work_experience')}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
-          doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
-        </Text>
-      </Accordeon>
-
-      <Accordeon title={t('languages')}>
-        <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi odio totam? Cupiditate hic enim saepe iste neque? Corrupti magni
-          doloremque consequuntur quam dolorem vero, voluptatem delectus et accusamus ut.
-        </Text>
-      </Accordeon>
+      <Accordeon title={t('summary')}>{currentLanguage === 'en' ? <SummaryEn /> : <SummaryDe />}</Accordeon>
+      <Accordeon title={t('Education')}>{currentLanguage === 'en' ? <EducationEn /> : <EducationDe />}</Accordeon>
+      <Accordeon title={t('work_experience')}>{currentLanguage === 'en' ? <WorkExperienceEn /> : <WorkExperienceDe />}</Accordeon>
+      <Accordeon title={t('languages')}>{currentLanguage === 'en' ? <LanguagesEn /> : <LanguagesDe />}</Accordeon>
     </SectionSticky>
   );
 };

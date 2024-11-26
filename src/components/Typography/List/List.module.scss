@@ -1,0 +1,57 @@
+.List {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  gap: 20px;
+  > li {
+    position: relative;
+    width: 100%;
+    padding-left: 20px;
+    color: var(--grey);
+    line-height: 1.5;
+    &:before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      border-radius: 5px;
+      background: var(--color);
+      left: 0px;
+      top: 8px;
+      position: absolute;
+    }
+    b {
+      display: inline;
+      font-weight: 500;
+      color: var(--text-color);
+    }
+    strong {
+      display: block;
+      font-weight: 500;
+      color: var(--text-color);
+    }
+    a {
+      display: inline;
+      border-bottom: 1px solid var(--grey);
+      transition: 0.3s;
+      &:hover {
+        color: var(--color);
+        border-bottom: 1px solid var(--color);
+      }
+    }
+  }
+}
+
+.Small {
+  font-size: 12px;
+}
+
+.Big {
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .Big {
+    font-size: 13px;
+  }
+}

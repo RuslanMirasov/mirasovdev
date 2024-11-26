@@ -2,7 +2,7 @@ import css from './Title.module.scss';
 
 interface TitleProps {
   tag?: keyof JSX.IntrinsicElements;
-  size?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
+  size?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | '404';
   align?: 'left' | 'center' | 'right';
   children: React.ReactNode;
 }
@@ -12,6 +12,7 @@ const Title: React.FC<TitleProps> = ({ tag = 'strong', size, align, children }) 
 
   const titleClasses = [
     css.Title,
+    size === '404' ? css.Title404 : '',
     size === 'h1' ? css.TitleH1 : '',
     size === 'h2' ? css.TitleH2 : '',
     size === 'h3' ? css.TitleH3 : '',

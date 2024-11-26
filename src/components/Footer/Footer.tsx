@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
     <footer className={css.Footer}>
       <Container>
         <Logo />
-        <a href="/privacy-policy" target="_blank" className={css.Link}>
+        <a href="/privacy-policy" className={css.Link}>
           {t('privacy_policy')}
         </a>
       </Container>

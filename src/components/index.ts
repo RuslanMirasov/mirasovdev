@@ -26,6 +26,14 @@ export { default as AboutMeSidebar } from './AboutMeSidebar/AboutMeSidebar';
 export { default as Accordeon } from './Accordeon/Accordeon';
 export { default as SkillsCollection } from './SkillsCollection/SkillsCollection';
 export { default as ContactsList } from './ContactsList/ContactsList';
+export { default as SummaryDe } from './AboutMe/Summary/SummaryDe';
+export { default as SummaryEn } from './AboutMe/Summary/SummaryEn';
+export { default as EducationEn } from './AboutMe/Education/EducationEn';
+export { default as EducationDe } from './AboutMe/Education/EducationDe';
+export { default as WorkExperienceEn } from './AboutMe/WorkExperience/WorkExperienceEn';
+export { default as WorkExperienceDe } from './AboutMe/WorkExperience/WorkExperienceDe';
+export { default as LanguagesEn } from './AboutMe/Languages/LanguagesEn';
+export { default as LanguagesDe } from './AboutMe/Languages/LanguagesDe';
 
 //Buttons
 export { default as ButtonsList } from './Buttons/ButtonsList/ButtonsList';
@@ -39,6 +47,7 @@ export { default as ButtonClose } from './Buttons/ButtonClose/ButtonClose';
 export { default as TitleBox } from './Typography/TitleBox/TitleBox';
 export { default as Title } from './Typography/Title/Title';
 export { default as Text } from './Typography/Text/Text';
+export { default as List } from './Typography/List/List';
 
 //Forms
 export { default as InputError } from './Forms/InputError/InputError';
