@@ -1,5 +1,5 @@
 import { ReactNode, MouseEvent } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import scrollToBlock from 'assets/utils/scrollToBlock';
 import { closeMenu } from 'assets/utils/menuFunctions';
 
@@ -12,6 +12,8 @@ interface MenuLinkProps {
 }
 
 const MenuLink: React.FC<MenuLinkProps> = ({ to, text, onClick, scrollto, children }) => {
+  const navigate = useNavigate();
+
   const handleClick = (e: MouseEvent<HTMLAnchorElement>) => {
     if (onClick) {
       onClick();
@@ -19,7 +21,10 @@ const MenuLink: React.FC<MenuLinkProps> = ({ to, text, onClick, scrollto, childr
     }
     if (scrollto) {
       e.preventDefault();
-      scrollToBlock(scrollto);
+      const isScrollPolible: boolean = scrollToBlock(scrollto);
+      if (!isScrollPolible) {
+        navigate(`/#${scrollto}`);
+      }
       if (window.innerWidth < 1024) {
         closeMenu();
       }

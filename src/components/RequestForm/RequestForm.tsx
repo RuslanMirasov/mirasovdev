@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup';
@@ -67,7 +68,6 @@ const RequestForm: React.FC = () => {
       openModal(<ConfirmPopup />);
     } catch (error) {
       console.error('Send form error: ', error);
-      // Логика обработки ошибки
     } finally {
       setIsLoading(false);
       reset();
@@ -134,10 +134,7 @@ const RequestForm: React.FC = () => {
           <input id="agree" type="checkbox" {...register('agree')} />
           <label htmlFor="agree" className={`${css.RadioLabel} ${errors.agree ? 'invalid' : ''}`}>
             <span>
-              {t('agree')}&nbsp;{' '}
-              <a href="/privacy-policy" target="_blank">
-                {t('privacy_policy')}
-              </a>
+              {t('agree')}&nbsp; <Link to="/privacy-policy">{t('privacy_policy')}</Link>
             </span>
           </label>
           <InputError text={errors.agree && errors.agree.message} />

@@ -1,13 +1,13 @@
-import { Container, Section, Title } from 'components';
+import { Container, Section, PolicyEn, PolicyDe } from 'components';
+import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicy: React.FC = () => {
+  const { i18n } = useTranslation();
+  const translation = i18n.language.split('-')[0];
+
   return (
-    <Section>
-      <Container>
-        <Title tag="h1" size="h1">
-          Privacy Policy
-        </Title>
-      </Container>
+    <Section extraClass="section-policy">
+      <Container>{translation === 'en' ? <PolicyEn /> : <PolicyDe />}</Container>
     </Section>
   );
 };

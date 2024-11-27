@@ -1,5 +1,6 @@
 //Basic
 export { default as App } from './App/App';
+export { default as ScroolToTopOnRender } from './ScroolToTopOnRender/ScroolToTopOnRender';
 export { default as Preloader } from './Preloader/Preloader';
 export { default as Layout } from './Layout/Layout';
 export { default as Section } from './Section/Section';
@@ -34,6 +35,8 @@ export { default as WorkExperienceEn } from './AboutMe/WorkExperience/WorkExperi
 export { default as WorkExperienceDe } from './AboutMe/WorkExperience/WorkExperienceDe';
 export { default as LanguagesEn } from './AboutMe/Languages/LanguagesEn';
 export { default as LanguagesDe } from './AboutMe/Languages/LanguagesDe';
+export { default as PolicyEn } from './Policy/PolicyEn';
+export { default as PolicyDe } from './Policy/PolicyDe';
 
 //Buttons
 export { default as ButtonsList } from './Buttons/ButtonsList/ButtonsList';

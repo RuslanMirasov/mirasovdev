@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import { ModalProvider } from 'contexts/ModalContext';
-import { App } from 'components';
+import { App, ScroolToTopOnRender } from 'components';
 import 'assets/utils/languages';
 import 'index.scss';
 
@@ -21,6 +21,7 @@ if (rootElement) {
         }}
       >
         <ModalProvider>
+          <ScroolToTopOnRender />
           <App />
         </ModalProvider>
       </BrowserRouter>

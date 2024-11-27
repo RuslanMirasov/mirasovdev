@@ -5,7 +5,7 @@ const Portfolio: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Section extraClass="section-portfolio">
+    <Section extraClass="section-portfolio" id="section-portfolio">
       <Container>
         <TitleBox>
           <Title tag="h2" size="h2">

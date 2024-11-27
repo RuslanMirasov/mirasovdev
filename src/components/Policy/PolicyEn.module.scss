@@ -1,0 +1,20 @@
+.Policy {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 22px;
+  p {
+    color: var(--grey);
+  }
+  h1 {
+    position: relative;
+    top: 10px;
+  }
+  h2 {
+    position: relative;
+    top: 14px;
+  }
+  ul {
+    gap: 10px;
+  }
+}
