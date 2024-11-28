@@ -74,7 +74,7 @@ const Projects: React.FC = () => {
       </ul>
       {showButton && (
         <ButtonsList align="center">
-          <Button variant="BorderDark" isLoading={isLoading} onClick={loadMoreProjects}>
+          <Button variant="BorderDark" size="small" isLoading={isLoading} onClick={loadMoreProjects}>
             {t('portfolio_button_more')}
           </Button>
         </ButtonsList>

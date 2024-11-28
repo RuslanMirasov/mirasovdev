@@ -238,6 +238,7 @@
     width: 100%;
     font-size: 12px;
     padding-left: 20px;
+    color: var(--grey);
     &:before {
       content: '';
       display: block;
@@ -266,8 +267,7 @@
   scroll-behavior: smooth;
   padding-right: 20px;
   p {
-    opacity: 0.6;
-    font-size: 14px;
+    color: var(--grey);
   }
   picture {
     display: inline-flex;

@@ -6,34 +6,35 @@
     "poster": "/images/projects/3/poster.jpg",
     "poster2": "/images/projects/3/poster2.jpg",
     "title": "TORNADO LANDING",
-    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
+    "description": "Developed a responsive landing page for the Tornado Energy promotional campaign based on a Figma design. The project featured 7 sections, a header, a burger menu, and a footer. Ensured cross-browser compatibility and flawless performance on various devices.",
     "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
-    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
-    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "links": ["https://ruslanmirasov.github.io/tornado_landing/", "https://github.com/RuslanMirasov/tornado_landing"],
+    "features": ["Responsive layout", "Animated ticker", "Smooth scroll to section", "CSS animations", "Accordion"],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
   {
     "id": 0,
     "number": 0,
-    "category": ["Front-End"],
+    "category": ["Front-end", "Back-end"],
     "poster": "/images/projects/2/poster.jpg",
     "poster2": "/images/projects/2/poster2.jpg",
     "title": "DIROL WEBSITE",
-    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
-    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
-    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
-    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "description": "Developed a multi-page website for the Dirol chewing gum brand. Delivered responsive, cross-browser, and semantic markup in a youthful style based on a Figma design. After completing the layout, the site was integrated with the WordPress CMS. The project included a homepage, product catalog, individual product page, blog, article page, and other static pages.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", "PHP", "CMS Wordpress"],
+    "links": ["https://ruslanmirasov.github.io/dirol/", "https://github.com/RuslanMirasov/dirol"],
+    "features": [
+      "Animated preloader",
+      "Responsive burger menu",
+      "Lazy loading of images",
+      "Smooth scroll to anchor sections",
+      "Sliders implemented with Swiper.js",
+      "Custom Post Types and taxonomies",
+      "Custom fields using ACF (Advanced Custom Fields)",
+      "Event optimization with throttle and debounce",
+      "CSS animations",
+      "Shortcode development for WordPress"
+    ],
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
     "id": 1,
@@ -42,62 +43,98 @@
     "poster": "/images/projects/1/poster.jpg",
     "poster2": "/images/projects/1/poster2.jpg",
     "title": "ALYONKA CHOCOLATE",
-    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
-    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
-    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
-    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "description": "Developed a landing page for the 'Alenka' chocolate promotional campaign. Delivered a responsive, cross-browser, and semantic layout based on a Figma design. The landing page includes an admin panel for managing participant data. Upon visiting the page, users are greeted with an interactive animated story, after which they can fill out a form to participate in the prize draw.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
+    "links": ["https://alenka-3oct2024-prod.1d61.com/", "https://github.com/RuslanMirasov/Alenka_lending"],
+    "features": [
+      "Animated preloader",
+      "Responsive burger menu",
+      "Smooth scroll to anchor blocks",
+      "Slider using Swiper.js",
+      "CSS animations on scroll",
+      "Event start date timer",
+      "Video streaming",
+      "Popup windows with forms and information",
+      "Custom form validation",
+      "Animated SVG starry sky background using CSS",
+      "JS implementation of a marquee"
+    ],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
   {
     "id": 2,
     "number": 2,
     "category": ["front-end"],
-    "poster": "https://ruslanmirasov.github.io/spa_salon_nectar/assets/img/certificate/2@2x.jpg",
-    "poster2": "https://raw.githubusercontent.com/RuslanMirasov/spa_salon_nectar/main/poster/template.jpg",
+    "poster": "/images/projects/4/poster.jpg",
+    "poster2": "/images/projects/4/poster2.jpg",
     "title": "NECTAR SPA.SALON",
-    "description": "Это веб-приложение позволяет пользователям создавать, управлять и отслеживать свои задачи.",
-    "stack": ["HTML", "CSS", "JavaScript", "React"],
+    "description": "Development of a multi-page website for the 'NECTAR' spa salon. The project aimed to create an adaptive, cross-browser, and semantic website based on a Figma design. The website includes a homepage with general information about the salon, six individual service pages, and a page dedicated to purchasing gift certificates.",
+    "stack": ["HTML", "CSS", "JavaScript", "PHP"],
     "links": ["https://spa.mnectar.eu/", "https://github.com/RuslanMirasov/spa_salon_nectar"],
-    "features": ["Список задач", "Фильтрация", "Поиск"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "features": [
+      "Animated preloader",
+      "Multi-level burger menu",
+      "Smooth scroll to anchor blocks",
+      "Slider using Swiper.js",
+      "CSS animations on scroll",
+      "Video background",
+      "Tab sections",
+      "Popup window with an image gallery",
+      "Custom form validation",
+      "PHP form submission (class.phpmailer)",
+      "Language switcher"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 12,
+    "number": 12,
+    "category": ["Pet Project"],
+    "poster": "/images/projects/5/poster.jpg",
+    "poster2": "/images/projects/5/poster2.jpg",
+    "title": "WORT KRAFT APP",
+    "description": "Development of an application for learning and improving German vocabulary. The project involved creating an application with user registration and authentication functionality, the ability to create custom word lists, and step-by-step word learning. Users can track their progress. Key features include written and oral exercises for learning new words. The application includes the following sections: book catalog, book page with a list of topics, topic page with a list of words, learning process page, search page, personal word list page, statistics section and profile page where users can update their data and select the language for learning.",
+    "stack": ["HTML", "CSS/SCSS", "JavaScript", "React", "NEXT.js", "Node.js", "MongoDB", "Vercel"],
+    "links": ["https://wortkraft.vercel.app/", "https://github.com/RuslanMirasov/wortkraft"],
+    "features": [
+      "Registration and authorization with JWT tokens",
+      "REST API",
+      "Private and public routes",
+      "SWR for database requests",
+      "Voice playback of words and examples",
+      "Popup windows for forms and notifications",
+      "Custom form validation",
+      "Integration with Firebase for graphic storage",
+      "SASS for modular styles (module.scss)",
+      "use-local-storage-state",
+      "Mongoose",
+      "browser-image-compression",
+      "Custom avatar generation"
+    ],
+    "client": ["This project was created as part of the", "Spiced-Academy", "https://www.spiced-academy.com/en/program/full-stack-web-development"]
   },
   {
     "id": 3,
     "number": 3,
-    "category": ["front-end", "back-end"],
-    "poster": "https://brainst.pro/wp-content/uploads/2023/09/product10_g1.jpg",
-    "poster2": "https://brainst.pro/wp-content/uploads/2023/09/product10_g1.jpg",
+    "category": ["Front-end"],
+    "poster": "/images/projects/6/poster.jpg",
+    "poster2": "/images/projects/6/poster2.jpg",
     "title": "JUBILEE COOKIES",
-    "description": "Development of a multi-page website for the company «Mondelez» which produces biscuits. Adaptive layout of all pages of the site, with clean valid and semantic code. Also the development of a quiz, going which the user is predraganaetsya dessert recipes depending on his preferences.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://xn--90aiakgkqi1l.xn--p1ai/", "https://ruslanmirasov.github.io/Milar_Clinic/"],
+    "description": "Development of a multi-page website for the biscuit manufacturer 'Yubileynoe'. The project involved creating adaptive and semantic markup for all website pages based on a Figma design. The site includes a homepage, a product list page, a single product page, a recipe list page, a single recipe page, and pop-up windows with a list of stores where the product can be purchased.",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "links": ["https://xn--90aiakgkqi1l.xn--p1ai/"],
     "features": [
-      "Прелоадер",
-      "Эффекты плавного появления элементов при скролле",
-      "Slick слайдеры контента",
-      "Оригинальный слайдер галереи (самописный)",
-      "Popup окна оформления заказа с отправкой заявки на почту клиента",
-      "Popup окна проектов и персонала",
-      "Липкое 2-х уровневое меню",
-      "Скролл-фильтр преподавателей",
-      "Интерактивная карта Google Map API"
+      "Animated preloader",
+      "Animated burger menu",
+      "Sliders using Swiper.js",
+      "CSS animations on scroll",
+      "Video background",
+      "Pop-ups",
+      "Custom form validation",
+      "Accordion",
+      "Google Tag Manager setup"
     ],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
     "id": 4,

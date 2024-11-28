@@ -60,7 +60,7 @@ const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ id }) => {
       </div>
       <div className={`${css.Content} custom-scrollbar`}>
         <TitleBox>
-          <b>{project.category.join(' / ')}</b>
+          <Text>{project.category.join(' / ')}</Text>
           <Title tag="h3" size="h2">
             {project.title}
           </Title>
@@ -72,7 +72,7 @@ const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ id }) => {
         </TitleBox>
 
         <div className={`${css.DescriptionWrapper} custom-scrollbar`}>
-          <Text size="big">{project.description}</Text>
+          <Text>{project.description}</Text>
           <b>{t('features')}:</b>
 
           <ul className={css.Features}>
@@ -81,17 +81,18 @@ const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ id }) => {
             ))}
           </ul>
 
-          <b>{t('Employer')}:</b>
-          <span>
+          <Text>
+            <b>{t('Employer')}: </b>
+            {project.client[0]}{' '}
             <a href={project.client[2]} rel="noreferrer" target="_blank">
-              <Image src={project.client[3]} alt={`${project.client[0]} ${project.client[1]}`} height={40} />
+              {project.client[1]}
             </a>
-          </span>
+          </Text>
         </div>
 
         <div className={css.Buttons}>
           {project.links.map((link, index) => {
-            const isGithub = link.includes('github');
+            const isGithub = link.includes('github.com');
             return (
               <Button to={link} key={index} blank variant={isGithub ? 'Black' : 'BorderDark'}>
                 <Icon name={isGithub ? 'github' : 'website'} />
