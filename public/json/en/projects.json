@@ -1,67 +1,5 @@
 [
   {
-    "id": 11,
-    "number": 11,
-    "category": ["Front-End"],
-    "poster": "/images/projects/3/poster.jpg",
-    "poster2": "/images/projects/3/poster2.jpg",
-    "title": "TORNADO LANDING",
-    "description": "Developed a responsive landing page for the Tornado Energy promotional campaign based on a Figma design. The project featured 7 sections, a header, a burger menu, and a footer. Ensured cross-browser compatibility and flawless performance on various devices.",
-    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
-    "links": ["https://ruslanmirasov.github.io/tornado_landing/", "https://github.com/RuslanMirasov/tornado_landing"],
-    "features": ["Responsive layout", "Animated ticker", "Smooth scroll to section", "CSS animations", "Accordion"],
-    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
-  },
-  {
-    "id": 0,
-    "number": 0,
-    "category": ["Front-end", "Back-end"],
-    "poster": "/images/projects/2/poster.jpg",
-    "poster2": "/images/projects/2/poster2.jpg",
-    "title": "DIROL WEBSITE",
-    "description": "Developed a multi-page website for the Dirol chewing gum brand. Delivered responsive, cross-browser, and semantic markup in a youthful style based on a Figma design. After completing the layout, the site was integrated with the WordPress CMS. The project included a homepage, product catalog, individual product page, blog, article page, and other static pages.",
-    "stack": ["HTML5", "CSS/SCSS", "JavaScript", "PHP", "CMS Wordpress"],
-    "links": ["https://ruslanmirasov.github.io/dirol/", "https://github.com/RuslanMirasov/dirol"],
-    "features": [
-      "Animated preloader",
-      "Responsive burger menu",
-      "Lazy loading of images",
-      "Smooth scroll to anchor sections",
-      "Sliders implemented with Swiper.js",
-      "Custom Post Types and taxonomies",
-      "Custom fields using ACF (Advanced Custom Fields)",
-      "Event optimization with throttle and debounce",
-      "CSS animations",
-      "Shortcode development for WordPress"
-    ],
-    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
-  },
-  {
-    "id": 1,
-    "number": 1,
-    "category": ["Front-End"],
-    "poster": "/images/projects/1/poster.jpg",
-    "poster2": "/images/projects/1/poster2.jpg",
-    "title": "ALYONKA CHOCOLATE",
-    "description": "Developed a landing page for the 'Alenka' chocolate promotional campaign. Delivered a responsive, cross-browser, and semantic layout based on a Figma design. The landing page includes an admin panel for managing participant data. Upon visiting the page, users are greeted with an interactive animated story, after which they can fill out a form to participate in the prize draw.",
-    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
-    "links": ["https://alenka-3oct2024-prod.1d61.com/", "https://github.com/RuslanMirasov/Alenka_lending"],
-    "features": [
-      "Animated preloader",
-      "Responsive burger menu",
-      "Smooth scroll to anchor blocks",
-      "Slider using Swiper.js",
-      "CSS animations on scroll",
-      "Event start date timer",
-      "Video streaming",
-      "Popup windows with forms and information",
-      "Custom form validation",
-      "Animated SVG starry sky background using CSS",
-      "JS implementation of a marquee"
-    ],
-    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
-  },
-  {
     "id": 2,
     "number": 2,
     "category": ["front-end"],
@@ -114,6 +52,132 @@
     "client": ["This project was created as part of the", "Spiced-Academy", "https://www.spiced-academy.com/en/program/full-stack-web-development"]
   },
   {
+    "id": 4,
+    "number": 4,
+    "category": ["Front-end", "Team project"],
+    "poster": "/images/projects/7/poster.jpg",
+    "poster2": "/images/projects/7/poster2.jpg",
+    "title": "POWER PULSE.APP",
+    "description": "This is the final team project at the IT school GOIT. The team was tasked with developing a fitness web application where users can track their daily workout progress, log calorie and activity metrics, monitor their diet, manage nutrition, and more. As a member of the front-end development team, I was responsible for implementing the login and registration pages, the profile settings page, the main page, and the 404 error page.",
+    "stack": ["HTML", "CSS", "JavaScript", "React", "Redux-Toolkit", "Vite", "REST API"],
+    "links": [
+      "https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/",
+      "https://github.com/kurshatsov-andrii/leader-code-team-power-pulse"
+    ],
+    "features": ["Custom form validation", "Axios for backend requests", "Redux-Toolkit for global state management"],
+    "client": ["This is the final project of the course at", "GOIT", "https://goit.global/ua/courses/fullstack/"]
+  },
+  {
+    "id": 1,
+    "number": 1,
+    "category": ["Front-End"],
+    "poster": "/images/projects/1/poster.jpg",
+    "poster2": "/images/projects/1/poster2.jpg",
+    "title": "ALYONKA CHOCOLATE",
+    "description": "Developed a landing page for the 'Alenka' chocolate promotional campaign. Delivered a responsive, cross-browser, and semantic layout based on a Figma design. The landing page includes an admin panel for managing participant data. Upon visiting the page, users are greeted with an interactive animated story, after which they can fill out a form to participate in the prize draw.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
+    "links": ["https://alenka-3oct2024-prod.1d61.com/", "https://github.com/RuslanMirasov/Alenka_lending"],
+    "features": [
+      "Animated preloader",
+      "Responsive burger menu",
+      "Smooth scroll to anchor blocks",
+      "Slider using Swiper.js",
+      "CSS animations on scroll",
+      "Event start date timer",
+      "Video streaming",
+      "Popup windows with forms and information",
+      "Custom form validation",
+      "Animated SVG starry sky background using CSS",
+      "JS implementation of a marquee"
+    ],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
+    "id": 0,
+    "number": 0,
+    "category": ["Front-end", "Back-end"],
+    "poster": "/images/projects/2/poster.jpg",
+    "poster2": "/images/projects/2/poster2.jpg",
+    "title": "DIROL WEBSITE",
+    "description": "Developed a multi-page website for the Dirol chewing gum brand. Delivered responsive, cross-browser, and semantic markup in a youthful style based on a Figma design. After completing the layout, the site was integrated with the WordPress CMS. The project included a homepage, product catalog, individual product page, blog, article page, and other static pages.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", "PHP", "CMS Wordpress"],
+    "links": ["https://ruslanmirasov.github.io/dirol/", "https://github.com/RuslanMirasov/dirol"],
+    "features": [
+      "Animated preloader",
+      "Responsive burger menu",
+      "Lazy loading of images",
+      "Smooth scroll to anchor sections",
+      "Sliders implemented with Swiper.js",
+      "Custom Post Types and taxonomies",
+      "Custom fields using ACF (Advanced Custom Fields)",
+      "Event optimization with throttle and debounce",
+      "CSS animations",
+      "Shortcode development for WordPress"
+    ],
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
+  },
+  {
+    "id": 10,
+    "number": 10,
+    "category": ["Front-end", "Back-end"],
+    "poster": "/images/projects/12/poster.jpg",
+    "poster2": "/images/projects/12/poster2.jpg",
+    "title": "DMITRIY PISARUK",
+    "description": "I was tasked with developing a portfolio website for a film producer based on a Figma design, followed by integration with the WordPress CMS. The website includes a filmography section with options to watch movie trailers, a general description, a list of partners, and a contact form.",
+    "stack": ["HTML", "CSS/SCSS", "JavaScript", "PHP", "CMS Wordpress", "ACF"],
+    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
+    "features": [
+      "Animated preloader",
+      "Scroll animations",
+      "Swiper.js slider",
+      "Popup windows",
+      "Custom form validation",
+      "Animated burger menu",
+      "Language switcher",
+      "Custom Post Types in WordPress",
+      "Custom fields (ACF)"
+    ],
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
+  },
+  {
+    "id": 9,
+    "number": 9,
+    "category": ["Front-end"],
+    "poster": "/images/projects/11/poster.jpg",
+    "poster2": "/images/projects/11/poster2.jpg",
+    "title": "GUINOT SALON",
+    "description": "Development of a multi-page website for the beauty salon 'Guinot' based on a Figma design. The website allows users to explore the salon's list of services and prices, book an appointment with their preferred specialist, or submit a request. Additionally, sections for bonus programs and promotions were implemented, which users can order by filling out a form.",
+    "stack": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://guinot-salon.ru/"],
+    "features": [
+      "Preloader",
+      "Scroll animations",
+      "Swiper.js sliders",
+      "Popup windows with forms and information",
+      "Image gallery",
+      "Custom form validation",
+      "Animated burger menu",
+      "Accordion",
+      "SVG country map",
+      "Video backgrounds"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 11,
+    "number": 11,
+    "category": ["Front-End"],
+    "poster": "/images/projects/3/poster.jpg",
+    "poster2": "/images/projects/3/poster2.jpg",
+    "title": "TORNADO LANDING",
+    "description": "Developed a responsive landing page for the Tornado Energy promotional campaign based on a Figma design. The project featured 7 sections, a header, a burger menu, and a footer. Ensured cross-browser compatibility and flawless performance on various devices.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
+    "links": ["https://ruslanmirasov.github.io/tornado_landing/", "https://github.com/RuslanMirasov/tornado_landing"],
+    "features": ["Responsive layout", "Animated ticker", "Smooth scroll to section", "CSS animations", "Accordion"],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+
+  {
     "id": 3,
     "number": 3,
     "category": ["Front-end"],
@@ -137,22 +201,6 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 4,
-    "number": 4,
-    "category": ["Front-end", "Team project"],
-    "poster": "/images/projects/7/poster.jpg",
-    "poster2": "/images/projects/7/poster2.jpg",
-    "title": "POWER PULSE.APP",
-    "description": "This is the final team project at the IT school GOIT. The team was tasked with developing a fitness web application where users can track their daily workout progress, log calorie and activity metrics, monitor their diet, manage nutrition, and more. As a member of the front-end development team, I was responsible for implementing the login and registration pages, the profile settings page, the main page, and the 404 error page.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Redux-Toolkit", "Vite", "REST API"],
-    "links": [
-      "https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/",
-      "https://github.com/kurshatsov-andrii/leader-code-team-power-pulse"
-    ],
-    "features": ["Custom form validation", "Axios for backend requests", "Redux-Toolkit for global state management"],
-    "client": ["This is the final project of the course at", "GOIT", "https://goit.global/ua/courses/fullstack/"]
-  },
-  {
     "id": 5,
     "number": 5,
     "category": ["Front-end"],
@@ -172,7 +220,7 @@
     "poster": "/images/projects/9/poster.jpg",
     "poster2": "/images/projects/9/poster2.jpg",
     "title": "LIBRIMI LENDING",
-    "description": "Development of a responsive landing page for a summer urban camp for children aged 6–11. The task involved creating semantic and cross-browser markup based on a Figma design. The page allows users to explore information about the camp, prices, schedule, and submit an application.",
+    "description": "Development of a responsive landing page for a summer urban camp for children aged 6-11. The task involved creating semantic and cross-browser markup based on a Figma design. The page allows users to explore information about the camp, prices, schedule, and submit an application.",
     "stack": ["HTML", "CSS", "JavaScript", "jQuery", "PHP"],
     "links": ["https://librimi.ru/summer/"],
     "features": [
@@ -184,24 +232,6 @@
       "PHP form submission"
     ],
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
-  },
-  {
-    "id": 7,
-    "number": 7,
-    "category": ["front-end"],
-    "poster": "https://mirasov.dev/assets/img/portfolio/19/main.jpg",
-    "poster2": "https://mirasov.dev/assets/img/portfolio/19/screen.jpg",
-    "title": "USELY WEBSITE",
-    "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://usely.ru/"],
-    "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
   },
   {
     "id": 8,
@@ -225,41 +255,5 @@
       "Yandex map integration"
     ],
     "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
-  },
-  {
-    "id": 9,
-    "number": 9,
-    "category": ["front-end", "back-end"],
-    "poster": "https://guinot-salon.ru/upload/cssinliner_webp/iblock/242/nk1wk9vwuixqf9motk64dx0shhcmmxiu.webp",
-    "poster2": "https://guinot-salon.ru/upload/cssinliner_webp/iblock/242/nk1wk9vwuixqf9motk64dx0shhcmmxiu.webp",
-    "title": "GUINOT SALON",
-    "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://guinot-salon.ru/"],
-    "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
-  },
-  {
-    "id": 10,
-    "number": 10,
-    "category": ["front-end", "back-end"],
-    "poster": "https://ruslanmirasov.github.io/pisaruk/assets/slide3-739f883d.jpg",
-    "poster2": "https://ruslanmirasov.github.io/pisaruk/assets/slide3-739f883d.jpg",
-    "title": "DMITRIY PISARUK",
-    "description": "Это API предоставляет доступ к базе данных для мобильного приложения.",
-    "stack": ["Node.js", "Express", "MongoDB"],
-    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
-    "features": ["Аутентификация", "Авторизация", "CRUD операции"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
   }
 ]
