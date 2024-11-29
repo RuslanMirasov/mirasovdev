@@ -17,8 +17,8 @@ const ContactsList: React.FC = () => {
       _id: 1,
       icon: 'phone',
       label: t('Phone'),
-      url: 'tel:+7490000000',
-      text: '+49 (000) 000-00-00',
+      url: 'tel:+491778391102',
+      text: '+49 (177) 839-11-02',
     },
     {
       _id: 2,

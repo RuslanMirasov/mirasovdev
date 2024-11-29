@@ -17,8 +17,8 @@ const Menu: React.FC = () => {
 
   return (
     <ul className={`${css.NavMenu} custom-scrollbar`}>
-      <MenuLink scrollto="body" text={t('home')} />
-      <MenuLink to="#" text="Code">
+      <MenuLink to="/" text={t('home')} />
+      {/* <MenuLink to="#" text="Code">
         <ul>
           <MenuLink to="#" text="Edication">
             <ul>
@@ -94,7 +94,7 @@ const Menu: React.FC = () => {
             </ul>
           </MenuLink>
         </ul>
-      </MenuLink>
+      </MenuLink> */}
       <MenuLink scrollto="section-portfolio" text={t('portfolio')} />
       <MenuLink scrollto="section-about" text={t('about')} />
       <MenuLink scrollto="section-skills" text={t('skills')} />

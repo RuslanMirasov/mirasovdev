@@ -139,56 +139,51 @@
   {
     "id": 4,
     "number": 4,
-    "category": ["front-end", "back-end"],
-    "poster": "https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/assets/hero-2x-a0acb64c.jpg",
-    "poster2": "https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/assets/hero-2x-a0acb64c.jpg",
+    "category": ["Front-end", "Team project"],
+    "poster": "/images/projects/7/poster.jpg",
+    "poster2": "/images/projects/7/poster2.jpg",
     "title": "POWER PULSE.APP",
-    "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://github.com/kurshatsov-andrii/leader-code-team-power-pulse"],
-    "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "description": "This is the final team project at the IT school GOIT. The team was tasked with developing a fitness web application where users can track their daily workout progress, log calorie and activity metrics, monitor their diet, manage nutrition, and more. As a member of the front-end development team, I was responsible for implementing the login and registration pages, the profile settings page, the main page, and the 404 error page.",
+    "stack": ["HTML", "CSS", "JavaScript", "React", "Redux-Toolkit", "Vite", "REST API"],
+    "links": [
+      "https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/",
+      "https://github.com/kurshatsov-andrii/leader-code-team-power-pulse"
+    ],
+    "features": ["Custom form validation", "Axios for backend requests", "Redux-Toolkit for global state management"],
+    "client": ["This is the final project of the course at", "GOIT", "https://goit.global/ua/courses/fullstack/"]
   },
   {
     "id": 5,
     "number": 5,
-    "category": ["front-end", "back-end"],
-    "poster": "https://i.pinimg.com/736x/b4/fb/35/b4fb35b26be9985b0a0157865f65ac7a.jpg",
-    "poster2": "https://i.pinimg.com/736x/b4/fb/35/b4fb35b26be9985b0a0157865f65ac7a.jpg",
+    "category": ["Front-end"],
+    "poster": "/images/projects/8/poster.jpg",
+    "poster2": "/images/projects/8/poster2.jpg",
     "title": "OREO GAME PAGES",
-    "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://example.com/project3"],
-    "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "description": "Development of 8 interactive game pages for the Oreo website. Users can combine various ingredients, and upon finding the right combination, they receive a dessert recipe that can be made using Oreo cookies. The game areas are designed in different themes according to the Figma design: Birthday, Party, Movie Night, Picnic, Treat Yourself, Date Night, Board Games, and Delicious Breakfast.",
+    "stack": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://oreo.ru/game/"],
+    "features": ["Responsiveness", "Drag and Drop events", "CSS animations", "Popup hints and messages", "Confetti effect using confetti.js"],
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
     "id": 6,
     "number": 6,
-    "category": ["front-end", "back-end"],
-    "poster": "https://brainst.pro/wp-content/uploads/2019/03/br-4.jpg",
-    "poster2": "https://brainst.pro/wp-content/uploads/2019/03/br-4.jpg",
+    "category": ["Front-end"],
+    "poster": "/images/projects/9/poster.jpg",
+    "poster2": "/images/projects/9/poster2.jpg",
     "title": "LIBRIMI LENDING",
-    "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://example.com/project3"],
-    "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "description": "Development of a responsive landing page for a summer urban camp for children aged 6–11. The task involved creating semantic and cross-browser markup based on a Figma design. The page allows users to explore information about the camp, prices, schedule, and submit an application.",
+    "stack": ["HTML", "CSS", "JavaScript", "jQuery", "PHP"],
+    "links": ["https://librimi.ru/summer/"],
+    "features": [
+      "Animated preloader",
+      "CSS animations on scroll",
+      "Sliders using Swiper.js",
+      "Popup hints and messages",
+      "Custom form validation",
+      "PHP form submission"
+    ],
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
     "id": 7,
@@ -211,20 +206,25 @@
   {
     "id": 8,
     "number": 8,
-    "category": ["front-end", "back-end"],
-    "poster": "https://mirasov.dev/assets/img/portfolio/11/main.jpg",
-    "poster2": "https://mirasov.dev/assets/img/portfolio/11/main.jpg",
+    "category": ["Front-end"],
+    "poster": "/images/projects/10/poster.jpg",
+    "poster2": "/images/projects/10/poster2.jpg",
     "title": "MILLENIUM SALON",
-    "description": "Это полнофункциональный интернет-магазин для продажи товаров.",
-    "stack": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Express", "MongoDB"],
-    "links": ["https://example.com/project3"],
-    "features": ["Корзина покупок", "Оформление заказа", "Административная панель"],
-    "client": [
-      "Digital communications studio",
-      "Human Touch",
-      "https://human-touch.ru/",
-      "https://static.tildacdn.com/tild3464-3731-4430-b338-623235383462/Human_touch_logo.png"
-    ]
+    "description": "Development of a multi-page website for the beauty salon Millenium based on a Figma design. The website allows users to explore the salon's list of services and prices, book an appointment with their preferred specialist, or submit a request. Additionally, sections for bonus programs and promotions were implemented, which users can order by filling out a form.",
+    "stack": ["HTML", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://milleniumstyle.ru/"],
+    "features": [
+      "Preloader",
+      "Scroll animations",
+      "Sliders using Swiper.js",
+      "Popup windows with forms",
+      "Image gallery",
+      "Custom form validation",
+      "Sticky menu",
+      "Accordion functionality",
+      "Yandex map integration"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   },
   {
     "id": 9,
