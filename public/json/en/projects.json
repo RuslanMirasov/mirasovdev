@@ -1,7 +1,7 @@
 [
   {
-    "id": 2,
-    "number": 2,
+    "id": 1,
+    "number": 1,
     "category": ["front-end"],
     "poster": "/images/projects/4/poster.jpg",
     "poster2": "/images/projects/4/poster2.jpg",
@@ -25,8 +25,8 @@
     "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   },
   {
-    "id": 12,
-    "number": 12,
+    "id": 2,
+    "number": 2,
     "category": ["Pet Project"],
     "poster": "/images/projects/5/poster.jpg",
     "poster2": "/images/projects/5/poster2.jpg",
@@ -52,8 +52,8 @@
     "client": ["This project was created as part of the", "Spiced-Academy", "https://www.spiced-academy.com/en/program/full-stack-web-development"]
   },
   {
-    "id": 4,
-    "number": 4,
+    "id": 3,
+    "number": 3,
     "category": ["Front-end", "Team project"],
     "poster": "/images/projects/7/poster.jpg",
     "poster2": "/images/projects/7/poster2.jpg",
@@ -68,8 +68,8 @@
     "client": ["This is the final project of the course at", "GOIT", "https://goit.global/ua/courses/fullstack/"]
   },
   {
-    "id": 1,
-    "number": 1,
+    "id": 4,
+    "number": 4,
     "category": ["Front-End"],
     "poster": "/images/projects/1/poster.jpg",
     "poster2": "/images/projects/1/poster2.jpg",
@@ -93,8 +93,8 @@
     "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
   {
-    "id": 0,
-    "number": 0,
+    "id": 5,
+    "number": 5,
     "category": ["Front-end", "Back-end"],
     "poster": "/images/projects/2/poster.jpg",
     "poster2": "/images/projects/2/poster2.jpg",
@@ -117,8 +117,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 10,
-    "number": 10,
+    "id": 6,
+    "number": 6,
     "category": ["Front-end", "Back-end"],
     "poster": "/images/projects/12/poster.jpg",
     "poster2": "/images/projects/12/poster2.jpg",
@@ -140,8 +140,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 9,
-    "number": 9,
+    "id": 7,
+    "number": 7,
     "category": ["Front-end"],
     "poster": "/images/projects/11/poster.jpg",
     "poster2": "/images/projects/11/poster2.jpg",
@@ -164,8 +164,8 @@
     "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   },
   {
-    "id": 11,
-    "number": 11,
+    "id": 8,
+    "number": 8,
     "category": ["Front-End"],
     "poster": "/images/projects/3/poster.jpg",
     "poster2": "/images/projects/3/poster2.jpg",
@@ -176,10 +176,9 @@
     "features": ["Responsive layout", "Animated ticker", "Smooth scroll to section", "CSS animations", "Accordion"],
     "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
-
   {
-    "id": 3,
-    "number": 3,
+    "id": 9,
+    "number": 9,
     "category": ["Front-end"],
     "poster": "/images/projects/6/poster.jpg",
     "poster2": "/images/projects/6/poster2.jpg",
@@ -201,8 +200,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 5,
-    "number": 5,
+    "id": 10,
+    "number": 10,
     "category": ["Front-end"],
     "poster": "/images/projects/8/poster.jpg",
     "poster2": "/images/projects/8/poster2.jpg",
@@ -214,8 +213,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 6,
-    "number": 6,
+    "id": 11,
+    "number": 11,
     "category": ["Front-end"],
     "poster": "/images/projects/9/poster.jpg",
     "poster2": "/images/projects/9/poster2.jpg",
@@ -234,8 +233,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 8,
-    "number": 8,
+    "id": 12,
+    "number": 12,
     "category": ["Front-end"],
     "poster": "/images/projects/10/poster.jpg",
     "poster2": "/images/projects/10/poster2.jpg",
@@ -255,5 +254,55 @@
       "Yandex map integration"
     ],
     "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "category": ["Front-End"],
+    "poster": "/images/projects/13/poster.jpg",
+    "poster2": "/images/projects/13/poster2.jpg",
+    "title": "ALLWIN GROUP",
+    "description": "Markup of all website pages based on the Figma design layout for a company specializing in legal and cadastral services in the real estate sector. Adaptation for mobile devices and cross-browser compatibility.",
+    "stack": ["HTML5", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://allwingroup.ru/"],
+    "features": [
+      "Animated preloader",
+      "Frame-by-frame animation of the main screen element while scrolling",
+      "Smooth appearance of elements on scroll",
+      "Slick content sliders",
+      "Original project slider (custom-built)",
+      "Popup windows for order placement with email submission",
+      "Popup windows for projects and personnel",
+      "Burger menu",
+      "Interactive map (Google Maps API)",
+      "Table with chart (progress graph)"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "category": ["Front-End"],
+    "poster": "/images/projects/14/poster.jpg",
+    "poster2": "/images/projects/14/poster2.jpg",
+    "title": "FRONERI MILKA",
+    "description": "The task was to develop a brand page for 'Milka' based on a Figma design for 'Froneri', a company that produces ice cream for industry leaders like Nestlé and Mondelēz, as well as its own private labels.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
+    "links": ["https://froneri-icecream.ru/milka", "https://github.com/RuslanMirasov/froneri_milka"],
+    "features": ["Semantic markup", "Responsive design", "CSS animation", "Smooth scroll to section", "Parallax effect"],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "category": ["Front-End"],
+    "poster": "/images/projects/15/poster.jpg",
+    "poster2": "/images/projects/15/poster2.jpg",
+    "title": "FRONERI OREO",
+    "description": "The task was to develop a brand page for 'Oreo' based on a Figma design for 'Froneri', a company that produces ice cream for industry leaders like Nestlé and Mondelēz, as well as its own private labels.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
+    "links": ["https://froneri-icecream.ru/oreo", "https://github.com/RuslanMirasov/froneri_oreo"],
+    "features": ["Semantic markup", "Responsive design", "CSS animation", "Smooth scroll to section"],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   }
 ]

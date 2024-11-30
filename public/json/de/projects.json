@@ -1,7 +1,7 @@
 [
   {
-    "id": 2,
-    "number": 2,
+    "id": 1,
+    "number": 1,
     "category": ["front-end"],
     "poster": "/images/projects/4/poster.jpg",
     "poster2": "/images/projects/4/poster2.jpg",
@@ -24,8 +24,8 @@
     "client": ["Marketingagentur für Schönheit", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   },
   {
-    "id": 12,
-    "number": 12,
+    "id": 2,
+    "number": 2,
     "category": ["Pet Project"],
     "poster": "/images/projects/5/poster.jpg",
     "poster2": "/images/projects/5/poster2.jpg",
@@ -55,8 +55,8 @@
     ]
   },
   {
-    "id": 4,
-    "number": 4,
+    "id": 3,
+    "number": 3,
     "category": ["Front-end", "Teamprojekt"],
     "poster": "/images/projects/7/poster.jpg",
     "poster2": "/images/projects/7/poster2.jpg",
@@ -71,8 +71,8 @@
     "client": ["Dies ist das Abschlussprojekt des Kurses bei", "GOIT", "https://goit.global/ua/courses/fullstack/"]
   },
   {
-    "id": 1,
-    "number": 1,
+    "id": 4,
+    "number": 4,
     "category": ["Front-End"],
     "poster": "/images/projects/1/poster.jpg",
     "poster2": "/images/projects/1/poster2.jpg",
@@ -96,8 +96,8 @@
     "client": ["Studio für digitale Kommunikation", "Human Touch", "https://human-touch.ru/"]
   },
   {
-    "id": 0,
-    "number": 0,
+    "id": 5,
+    "number": 5,
     "category": ["Front-end", "Back-end"],
     "poster": "/images/projects/2/poster.jpg",
     "poster2": "/images/projects/2/poster2.jpg",
@@ -120,8 +120,8 @@
     "client": ["Digitale Studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 10,
-    "number": 10,
+    "id": 6,
+    "number": 6,
     "category": ["Front-end", "Back-end"],
     "poster": "/images/projects/12/poster.jpg",
     "poster2": "/images/projects/12/poster2.jpg",
@@ -143,8 +143,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 9,
-    "number": 9,
+    "id": 7,
+    "number": 7,
     "category": ["Front-end"],
     "poster": "/images/projects/11/poster.jpg",
     "poster2": "/images/projects/11/poster2.jpg",
@@ -167,22 +167,21 @@
     "client": ["Marketingagentur für Schönheit", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   },
   {
-    "id": 11,
-    "number": 11,
+    "id": 8,
+    "number": 8,
     "category": ["Front-End"],
     "poster": "/images/projects/3/poster.jpg",
     "poster2": "/images/projects/3/poster2.jpg",
     "title": "TORNADO LANDING",
     "description": "Entwickelte eine responsive Landingpage für die Tornado Energy Werbekampagne basierend auf einem Figma-Design. Das Projekt umfasste 7 Sektionen, einen Header, ein Burger-Menü und eine Fußzeile. Sorgte für eine korrekte Darstellung in allen gängigen Browsern und auf verschiedenen Geräten.",
     "stack": ["HTML5", "CSS/SCSS", "JavaScript"],
-    "links": ["https://pisaruk.ru/en", "https://github.com/RuslanMirasov/pisaruk"],
+    "links": ["https://ruslanmirasov.github.io/tornado_landing/", "https://github.com/RuslanMirasov/tornado_landing"],
     "features": ["Responsive Layout", "Animierter Lauftext", "Sanftes Scrollen zu einem Abschnitt", "CSS-Animationen", "Akkordeon"],
     "client": ["Studio für digitale Kommunikation", "Human Touch", "https://human-touch.ru/"]
   },
-
   {
-    "id": 3,
-    "number": 3,
+    "id": 9,
+    "number": 9,
     "category": ["Front-end"],
     "poster": "/images/projects/6/poster.jpg",
     "poster2": "/images/projects/6/poster2.jpg",
@@ -204,8 +203,8 @@
     "client": ["Digitale Studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 5,
-    "number": 5,
+    "id": 10,
+    "number": 10,
     "category": ["Front-end"],
     "poster": "/images/projects/8/poster.jpg",
     "poster2": "/images/projects/8/poster2.jpg",
@@ -217,8 +216,8 @@
     "client": ["Digitale Studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 6,
-    "number": 6,
+    "id": 11,
+    "number": 11,
     "category": ["Front-end"],
     "poster": "/images/projects/9/poster.jpg",
     "poster2": "/images/projects/9/poster2.jpg",
@@ -237,8 +236,8 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
-    "id": 8,
-    "number": 8,
+    "id": 12,
+    "number": 12,
     "category": ["Front-end"],
     "poster": "/images/projects/10/poster.jpg",
     "poster2": "/images/projects/10/poster2.jpg",
@@ -258,5 +257,55 @@
       "Integration von Yandex Maps"
     ],
     "client": ["Marketingagentur für Schönheit", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 13,
+    "number": 13,
+    "category": ["Front-End"],
+    "poster": "/images/projects/13/poster.jpg",
+    "poster2": "/images/projects/13/poster2.jpg",
+    "title": "ALLWIN GROUP",
+    "description": "Erstellung aller Webseiten auf Grundlage des Figma-Designlayouts für ein Unternehmen, das auf juristische und katasterbezogene Dienstleistungen im Immobilienbereich spezialisiert ist. Anpassung für mobile Geräte und Sicherstellung der Cross-Browser-Kompatibilität.",
+    "stack": ["HTML5", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://allwingroup.ru/"],
+    "features": [
+      "Animierter Preloader",
+      "Frame-by-Frame-Animation des Hauptelements beim Scrollen",
+      "Sanftes Erscheinen von Elementen beim Scrollen",
+      "Slick-Inhaltsslider",
+      "Originaler Projektslider (benutzerdefiniert)",
+      "Popup-Fenster für Bestellungen mit E-Mail-Versand",
+      "Popup-Fenster für Projekte und Mitarbeiter",
+      "Burger-Menü",
+      "Interaktive Karte (Google Maps API)",
+      "Tabelle mit Diagramm (Fortschrittsgrafik)"
+    ],
+    "client": ["Marketingagentur für Schönheit", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 14,
+    "number": 14,
+    "category": ["Front-End"],
+    "poster": "/images/projects/14/poster.jpg",
+    "poster2": "/images/projects/14/poster2.jpg",
+    "title": "FRONERI MILKA",
+    "description": "Die Aufgabe bestand darin, eine Marken-Seite für 'Milka' nach einem Figma-Design für 'Froneri' zu entwickeln, ein Unternehmen, das Eiscreme für Branchengrößen wie Nestlé und Mondelēz sowie für seine Eigenmarken herstellt.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
+    "links": ["https://froneri-icecream.ru/milka", "https://github.com/RuslanMirasov/froneri_milka"],
+    "features": ["Semantisches Markup", "Responsives Design", "CSS-Animation", "Sanftes Scrollen zu Abschnitten", "Parallax-Effekt"],
+    "client": ["Studio für digitale Kommunikation", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
+    "id": 15,
+    "number": 15,
+    "category": ["Front-End"],
+    "poster": "/images/projects/15/poster.jpg",
+    "poster2": "/images/projects/15/poster2.jpg",
+    "title": "FRONERI OREO",
+    "description": "Die Aufgabe bestand darin, eine Marken-Seite für 'Oreo' nach einem Figma-Design für 'Froneri' zu entwickeln, ein Unternehmen, das Eiscreme für Branchengrößen wie Nestlé und Mondelēz sowie für seine Eigenmarken herstellt.",
+    "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
+    "links": ["https://froneri-icecream.ru/oreo", "https://github.com/RuslanMirasov/froneri_oreo"],
+    "features": ["Semantisches Markup", "Responsives Design", "CSS-Animation", "Sanftes Scrollen zu Abschnitten"],
+    "client": ["Studio für digitale Kommunikation", "Human Touch", "https://human-touch.ru/"]
   }
 ]

@@ -15,7 +15,13 @@ const resources = {
 
 const options: InitOptions = {
   resources,
-  fallbackLng: 'en',
+  fallbackLng: 'de',
+  supportedLngs: ['de', 'en'],
+  nonExplicitSupportedLngs: true,
+  detection: {
+    order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
+    caches: ['localStorage'],
+  },
   debug: false,
   interpolation: {
     escapeValue: false,

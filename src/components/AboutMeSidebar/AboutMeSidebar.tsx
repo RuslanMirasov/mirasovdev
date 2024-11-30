@@ -4,6 +4,7 @@ import css from './AboutMeSidebar.module.scss';
 
 const AboutMeSidebar: React.FC = () => {
   const { t, i18n } = useTranslation();
+  const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'en';
 
   return (
     <>
@@ -14,7 +15,7 @@ const AboutMeSidebar: React.FC = () => {
         </Title>
       </div>
       <ButtonsList>
-        <Button to={`/pdf/${i18n.language.split('-')[0]}/resume.pdf`} blank full>
+        <Button to={`/pdf/${currentLanguage}/resume.pdf`} blank full>
           {t('Download_my_CV')}
         </Button>
       </ButtonsList>

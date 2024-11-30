@@ -8,12 +8,12 @@
 .ProjectDescription {
   display: flex;
   position: relative;
-  width: calc(100vw - 200px);
-  height: calc(100vh - 200px);
+  width: calc(100vw - 150px);
+  height: calc(100vh - 150px);
   max-width: 1440px;
-  max-height: 700px;
+  max-height: 850px;
   min-height: 600px;
-  border-radius: 20px;
+  border-radius: 14px;
   overflow: hidden;
   margin: 50px auto;
   @media (max-width: 1599px) {
@@ -149,6 +149,12 @@
       width: 100%;
       min-height: 100%;
     }
+    &:before {
+      left: 50%;
+      top: 50%;
+      margin-left: -20px;
+      margin-top: -20px;
+    }
   }
   @media (max-width: 1279px) {
     width: 100%;
@@ -206,8 +212,11 @@
       }
       h3 {
         order: 1;
-        margin-top: -30px;
+        margin-top: -20px;
         text-shadow: var(--shadow);
+      }
+      p {
+        margin-top: -50px;
       }
     }
   }
@@ -274,6 +283,9 @@
     max-height: 40px;
     width: auto;
     margin-top: -10px;
+  }
+  @media (max-width: 600px) {
+    overflow-y: hidden;
   }
 }
 

@@ -20,9 +20,9 @@ const Projects: React.FC = () => {
 
   useEffect(() => {
     const fetchProjects = async () => {
-      const pathToProjectsTranslations: string[] = i18n.language.split('-');
+      const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'en';
       try {
-        const response = await fetch(`/json/${pathToProjectsTranslations[0]}/projects.json`);
+        const response = await fetch(`/json/${currentLanguage}/projects.json`);
         const data: ProjectType[] = await response.json();
 
         const filteredData = data.map(({ id, poster, title }) => ({
