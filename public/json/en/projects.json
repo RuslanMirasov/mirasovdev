@@ -304,5 +304,72 @@
     "links": ["https://froneri-icecream.ru/oreo", "https://github.com/RuslanMirasov/froneri_oreo"],
     "features": ["Semantic markup", "Responsive design", "CSS animation", "Smooth scroll to section"],
     "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
+    "id": 16,
+    "number": 16,
+    "category": ["Front-End"],
+    "poster": "/images/projects/16/poster.jpg",
+    "poster2": "/images/projects/16/poster2.jpg",
+    "title": "THE FIRST SCROLLPAGE",
+    "description": "The task was to develop a scroll-page website based on a Photoshop design for the beauty and cosmetology center 'TheFirst'. Adaptation for mobile devices and cross-browser compatibility.",
+    "stack": ["HTML5", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://mirasov.dev/portfolio/thefirst/"],
+    "features": [
+      "Preloader",
+      "Smooth scroll effects",
+      "One Page Scroll technology",
+      "Slick content sliders",
+      "Popup order windows with AJAX email submission",
+      "Form validation",
+      "Staff filter",
+      "Burger menu",
+      "Video background"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 17,
+    "number": 17,
+    "category": ["Front-End"],
+    "poster": "/images/projects/17/poster.jpg",
+    "poster2": "/images/projects/17/poster2.jpg",
+    "title": "A-2 LENDING PAGE",
+    "description": "A task was assigned to develop a Landing Page based on a Photoshop design layout for a company specializing in interior design and renovations. The page was adapted for mobile devices and ensured cross-browser compatibility.",
+    "stack": ["HTML5", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://mirasov.dev/portfolio/a2/"],
+    "features": [
+      "Preloader",
+      "Scroll-page",
+      "Slick sliders for content",
+      "Popup windows for order placement with email submission to the client",
+      "Popup windows for news and staff",
+      "Animated burger menu",
+      "Staff filtering",
+      "Interactive map using Google Maps API"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
+    "id": 18,
+    "number": 18,
+    "category": ["Front-End"],
+    "poster": "/images/projects/18/poster.jpg",
+    "poster2": "/images/projects/18/poster2.jpg",
+    "title": "PERSONA SHOPPER",
+    "description": "A task was set to develop a Landing Page based on a Figma design layout for the beauty and cosmetology center 'Persona'. Adaptation for mobile devices and cross-browser compatibility.",
+    "stack": ["HTML5", "CSS", "JavaScript", "jQuery"],
+    "links": ["https://mirasov.dev/portfolio/shopper/"],
+    "features": [
+      "Preloader",
+      "Smooth scroll reveal effects",
+      "Parallax effects on scroll",
+      "Swiper content sliders",
+      "Popup windows for order forms with AJAX submission to the client's email",
+      "Form validation",
+      "Burger menu",
+      "Video background"
+    ],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   }
 ]

@@ -2,7 +2,7 @@
   "name": "mirasovdev",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mirasovdev.vercel.app/",
+  "homepage": "https://mirasov.dev/",
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "i18next": "^23.16.5",
