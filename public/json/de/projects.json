@@ -1,5 +1,26 @@
 [
   {
+    "id": 19,
+    "number": 19,
+    "category": ["Front-End"],
+    "poster": "/images/projects/19/poster.jpg",
+    "poster2": "/images/projects/19/poster2.jpg",
+    "title": "BARNI SPIELESEITE",
+    "description": "Die Aufgabe bestand darin, ein interaktives Quiz mit einer Reihe von Rätseln zu entwickeln, basierend auf einem Figma-Designprototyp. Der Benutzer löst Schritt für Schritt fünf Rätsel und erhält nach Abschluss eine Belohnung.",
+    "stack": ["HTML5", "CSS", "SCSS", "JavaScript"],
+    "links": ["https://ruslanmirasov.github.io/barni_game/", "https://github.com/RuslanMirasov/barni_game"],
+    "features": [
+      "Preloader",
+      "Swiper-Content-Slider",
+      "Popup-Fenster",
+      "Formularvalidierung",
+      "CSS Animation",
+      "Quizimplementierung",
+      "LocalStorage"
+    ],
+    "client": ["Digitale Studio", "Brainst", "https://brainst.pro/"]
+  },
+  {
     "id": 1,
     "number": 1,
     "category": ["front-end"],

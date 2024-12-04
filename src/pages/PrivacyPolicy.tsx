@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicy: React.FC = () => {
   const { i18n } = useTranslation();
-  const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'en';
+  const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'de';
 
   return (
     <Section extraClass="section-policy">

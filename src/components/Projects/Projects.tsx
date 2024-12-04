@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
 
   useEffect(() => {
     const fetchProjects = async () => {
-      const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'en';
+      const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'de';
       try {
         const response = await fetch(`/json/${currentLanguage}/projects.json`);
         const data: ProjectType[] = await response.json();

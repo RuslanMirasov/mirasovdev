@@ -21,13 +21,13 @@ const MenuLink: React.FC<MenuLinkProps> = ({ to, text, onClick, scrollto, childr
     }
     if (scrollto) {
       e.preventDefault();
-      const isScrollPolible: boolean = scrollToBlock(scrollto);
-      if (!isScrollPolible) {
+      const isScrollPosible: boolean = scrollToBlock(scrollto);
+      if (!isScrollPosible) {
         navigate(`/#${scrollto}`);
       }
-      if (window.innerWidth < 1024) {
-        closeMenu();
-      }
+    }
+    if (window.innerWidth < 1024) {
+      closeMenu();
     }
   };
 

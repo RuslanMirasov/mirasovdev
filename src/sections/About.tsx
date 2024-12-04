@@ -15,7 +15,7 @@ import {
 
 const About: React.FC = () => {
   const { t, i18n } = useTranslation();
-  const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'en';
+  const currentLanguage: string = ['en', 'de'].includes(i18n.language) ? i18n.language : 'de';
 
   return (
     <SectionSticky extraClass="section-about" sidebar={<AboutMeSidebar />} title={t('about')}>

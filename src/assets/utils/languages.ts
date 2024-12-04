@@ -19,7 +19,7 @@ const options: InitOptions = {
   supportedLngs: ['de', 'en'],
   nonExplicitSupportedLngs: true,
   detection: {
-    order: ['querystring', 'localStorage', 'navigator', 'htmlTag'],
+    order: ['localStorage', 'querystring', 'navigator', 'htmlTag'],
     caches: ['localStorage'],
   },
   debug: false,
