@@ -141,6 +141,19 @@
     "client": ["Digitale Studio", "Brainst", "https://brainst.pro/"]
   },
   {
+    "id": 20,
+    "number": 20,
+    "category": ["Front-End", "Back-end"],
+    "poster": "/images/projects/20/poster.jpg",
+    "poster2": "/images/projects/20/poster2.jpg",
+    "title": "THE-SELF QUIZ",
+    "description": "Die Aufgabe bestand darin, eine Seite mit einer Benutzerumfrage für die Website des Unternehmens theSelf nach dem Figma-Designlayout zu entwickeln. Der Benutzer beantwortet die Quizfragen, woraufhin ihm je nach seinen Vorlieben kosmetische Dienstleistungen mit einem Rabatt angeboten werden. Die Daten über die Ergebnisse und die Benutzerkontakte werden in einer MySQL-Datenbank gespeichert und an die Mailadresse des Kunden geschickt. Übersetzt mit DeepL.com (kostenlose Version)",
+    "stack": ["HTML5", "CSS", "SCSS", "JavaScript", "PHP", "MySQL"],
+    "links": ["https://mirasov.dev/portfolio/quize-theself/", "https://github.com/RuslanMirasov/theSelf-quiz"],
+    "features": ["Preloader", "Popup-Fenster", "Formularvalidierung", "CSS-Animation", "Quiz-Implementierung", "MySQL DB"],
+    "client": ["Marketingagentur für Schönheit", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
     "id": 6,
     "number": 6,
     "category": ["Front-end", "Back-end"],

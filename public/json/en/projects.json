@@ -130,6 +130,19 @@
     "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
   {
+    "id": 20,
+    "number": 20,
+    "category": ["Front-End", "Back-end"],
+    "poster": "/images/projects/20/poster.jpg",
+    "poster2": "/images/projects/20/poster2.jpg",
+    "title": "THE-SELF QUIZ",
+    "description": "The task was to develop a page of user survey for the website of theSelf company according to the Figma design layout. The user answers the quiz questions, after which they are offered cosmetic services depending on their preferences at a discount. Data about the results and user contacts are stored in a MySQL database and sent to the client's mail.",
+    "stack": ["HTML5", "CSS", "SCSS", "JavaScript", "PHP", "MySQL"],
+    "links": ["https://mirasov.dev/portfolio/quize-theself/", "https://github.com/RuslanMirasov/theSelf-quiz"],
+    "features": ["Preloader", "Popup windows", "Form validation", "CSS Animation", "Quiz Implementation", "MySQL DB"],
+    "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
+  },
+  {
     "id": 6,
     "number": 6,
     "category": ["Front-end", "Back-end"],
