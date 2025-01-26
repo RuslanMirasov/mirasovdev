@@ -1,17 +1,6 @@
 import { Button, ButtonsList, Container, Section, Text, Title, TitleBox } from 'components';
 
 const NotFound: React.FC = () => {
-  // const desk = [
-  //   [0, 1, 0, 1, 0, 1, 0, 1],
-  //   [1, 0, 1, 0, 1, 0, 1, 0],
-  //   [0, 1, 0, 1, 0, 1, 0, 1],
-  //   [1, 0, 1, 0, 1, 0, 1, 0],
-  //   [0, 1, 0, 1, 0, 1, 0, 1],
-  //   [1, 0, 1, 0, 1, 0, 1, 0],
-  //   [0, 1, 0, 1, 0, 1, 0, 1],
-  //   [1, 0, 1, 0, 1, 0, 1, 0],
-  // ];
-
   return (
     <Section full>
       <Container>
@@ -28,9 +17,6 @@ const NotFound: React.FC = () => {
             </ButtonsList>
           </TitleBox>
         </div>
-        <div>sdsdsds</div>
-        <div>sdsdsds</div>
-        <div>sdsdsds</div>
       </Container>
     </Section>
   );

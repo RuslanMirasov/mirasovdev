@@ -6,7 +6,7 @@ const EducationEn: React.FC = () => {
       <Title tag="h5" size="h6">
         Master`s degree
       </Title>
-      <List size="big">
+      <List>
         <li>
           <strong>09.2005 - 06.2010 | Master`s degree - Mechanical Engineering Technology </strong>
           <a href="https://pstu.edu/en/" target="_blank" rel="noreferrer">
@@ -18,7 +18,7 @@ const EducationEn: React.FC = () => {
       <Title tag="h5" size="h6">
         Education / Bootcamps
       </Title>
-      <List size="big">
+      <List>
         <li>
           <strong>22.07.2024 - 16.10.2024 | Spiced-Academy bootcamp (Berlin)</strong>
           Web developer{' '}

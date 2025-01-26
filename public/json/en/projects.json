@@ -89,7 +89,7 @@
     "title": "ALYONKA CHOCOLATE",
     "description": "Developed a landing page for the 'Alenka' chocolate promotional campaign. Delivered a responsive, cross-browser, and semantic layout based on a Figma design. The landing page includes an admin panel for managing participant data. Upon visiting the page, users are greeted with an interactive animated story, after which they can fill out a form to participate in the prize draw.",
     "stack": ["HTML5", "CSS/SCSS", "JavaScript", ".NET"],
-    "links": ["https://alenka-3oct2024-prod.1d61.com/", "https://github.com/RuslanMirasov/Alenka_lending"],
+    "links": ["https://ruslanmirasov.github.io/Alenka_lending/", "https://github.com/RuslanMirasov/Alenka_lending"],
     "features": [
       "Animated preloader",
       "Responsive burger menu",

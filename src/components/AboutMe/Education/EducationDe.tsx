@@ -6,7 +6,7 @@ const EducationDe: React.FC = () => {
       <Title tag="h5" size="h6">
         Hochschulabschluss
       </Title>
-      <List size="big">
+      <List>
         <li>
           <strong>09.2005 - 06.2010 | Master of Education - Maschinenbautechnik </strong>
           <a href="https://pstu.edu/en/" target="_blank" rel="noreferrer">
@@ -19,7 +19,7 @@ const EducationDe: React.FC = () => {
       <Title tag="h5" size="h6">
         Ausbildung / Weiterbildung
       </Title>
-      <List size="big">
+      <List>
         <li>
           <strong>22.07.2024 - 16.10.2024 | Spiced-Academy (Berlin)</strong>
           Web-Entwickler{' '}

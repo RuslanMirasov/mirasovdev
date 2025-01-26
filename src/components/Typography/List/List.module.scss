@@ -30,6 +30,11 @@
       font-weight: 500;
       color: var(--text-color);
     }
+    p {
+      color: var(--grey);
+      margin-top: 14px;
+      opacity: 1;
+    }
     a {
       display: inline;
       border-bottom: 1px solid var(--grey);
