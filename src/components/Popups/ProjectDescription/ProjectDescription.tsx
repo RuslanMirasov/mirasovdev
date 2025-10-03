@@ -14,6 +14,7 @@ interface ProjectType {
   stack: string[];
   links: string[];
   features: string[];
+  passwords: string[];
   client: string[];
 }
 
@@ -89,6 +90,23 @@ const ProjectDescription: React.FC<ProjectDescriptionProps> = ({ id }) => {
             </a>
           </Text>
         </div>
+
+        {project.passwords && (
+          <div className={css.Passwords}>
+            <p>{t('project access text')}:</p>
+            <ul>
+              <li>
+                <b>{project.passwords[0]}</b>
+              </li>
+              <li>
+                <span>|</span>
+              </li>
+              <li>
+                <b>{project.passwords[1]}</b>
+              </li>
+            </ul>
+          </div>
+        )}
 
         <div className={css.Buttons}>
           {project.links.map((link, index) => {

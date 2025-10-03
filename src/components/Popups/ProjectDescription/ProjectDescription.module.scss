@@ -176,6 +176,8 @@
   display: flex;
   flex-direction: column;
   align-content: flex-start;
+  align-items: flex-start;
+
   position: relative;
   text-align: left;
   width: 60%;
@@ -304,6 +306,41 @@
     padding-right: 30px;
     @media (max-width: 600px) {
       width: 100%;
+    }
+  }
+}
+
+.Passwords {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  gap: 5px;
+  padding: 10px 14px;
+  border-radius: 14px;
+  background: var(--grey-light);
+  margin-top: 20px;
+  margin-bottom: -10px;
+  p {
+    font-size: 11px;
+    line-height: 1.1;
+    color: var(--black);
+    max-width: 190px;
+  }
+  ul {
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    font-size: 16px;
+    color: var(--black);
+    span {
+      opacity: 0.5;
+    }
+    b {
+      color: var(--color);
     }
   }
 }

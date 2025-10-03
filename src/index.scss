@@ -30,6 +30,7 @@
   // --color: #12a9a5;
   --color: #f78a3c;
   --grey: #9c9c9c;
+  --grey-light: #ffffff;
 
   --border: rgba(255, 255, 255, 0.2);
   --shadow: rgba(26, 26, 26, 0.5);
@@ -68,6 +69,7 @@ body[data-theme='light'] {
   --border: rgba(153, 153, 153, 0.6);
   --shadow: rgb(245, 245, 245, 0.5);
   --grey: #868686;
+  --grey-light: #f0f0f0;
 
   --svg-effect-color: #404040;
   --svg-effect-color2: #e1e1e1;

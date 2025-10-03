@@ -65,5 +65,6 @@
   "your_comment": "Beschreiben Sie die Aufgabe",
   "agree": "Mit dem Klick auf die Schaltfläche 'Anfrage senden' akzeptieren Sie die",
   "privacy_policy": "Datenschutz",
-  "form_button_text": "Anfrage senden"
+  "form_button_text": "Anfrage senden",
+  "project access text": "Um das Projekt anzusehen, benötigen Sie einen Benutzernamen und ein Passwort"
 }

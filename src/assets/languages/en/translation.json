@@ -65,5 +65,6 @@
   "your_comment": "Describe the task",
   "agree": "By clicking the 'Send request' button, you agree to the",
   "privacy_policy": "Privacy Policy",
-  "form_button_text": "Send request"
+  "form_button_text": "Send request",
+  "project access text": "To view the project, you will need a keyword and password"
 }
