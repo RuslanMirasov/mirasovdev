@@ -4,19 +4,16 @@ const LanguagesEn: React.FC = () => {
   return (
     <List>
       <li>
-        <b>Ukrainian:</b> Native
+        <b>English</b>
       </li>
       <li>
-        <b>Russian:</b> Fluent
+        <b>German</b>
       </li>
       <li>
-        <b>German:</b> B2-
-        <a href="/pdf/b2_beruf_ruslan_mirasov_zertifikat.pdf" target="_blank" rel="noopener noreferrer">
-          Beruf
-        </a>
+        <b>Ukrainian</b>
       </li>
       <li>
-        <b>English:</b> B2
+        <b>Russian</b>
       </li>
     </List>
   );

@@ -1,50 +1,47 @@
 [
   {
-    "id": 29,
-    "number": 29,
-    "category": ["Front-End"],
-    "poster": "/images/projects/29/poster.webp",
-    "poster2": "/images/projects/29/poster2.webp",
-    "title": "VTB THEATRE",
-    "description": "Built a responsive promo site for Parmalat Comfort with an interactive visitor test and guided results. Implemented a modular UI with a slider-driven question flow, on-scroll animations, tabs, smooth in-page navigation, and debounced resize logic; plus a reusable popup system, sticky header, and preloader.",
-    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "vanilla JS utilities", "Yandex API"],
-    "links": ["https://mirasov.dev/portfolio/parmalat/", "https://github.com/RuslanMirasov/parmalat"],
-    "features": [
-      "Responsive semantic layout",
-      "Visitor test: slider flow, progress counter, result aggregation",
-      "Slide locking and end-state handling with restart",
-      "Debounced resize with slider re-init",
-      "Animation on scroll (AOS-style module)",
-      "“Why us” tabbed content",
-      "Smooth scroll-to-block navigation",
-      "Reusable popup framework",
-      "Sticky header and preloader"
+    "id": 31,
+    "number": 31,
+    "category": ["full-Stack"],
+    "poster": "/images/projects/31/poster.webp",
+    "poster2": "/images/projects/31/poster2.webp",
+    "title": "InterVizo APP",
+    "description": "An AI-powered interview automation platform designed to streamline the early stages of the hiring process. The system allows HR teams to generate interview scenarios and question pools from a simple prompt, conduct candidate interviews through AI voice or video avatars, automatically transcribe and evaluate responses, and deliver structured reports with key insights and scoring. The solution helps reduce screening time, improve consistency and objectivity in evaluation, accelerate hiring, and strengthen employer branding. Thanks to its modular architecture, the platform also has strong expansion potential for use in employee onboarding, internal training, customer support, and quality assessment.",
+    "stack": [
+      "Next.js 16 (App Router)",
+      "React 19",
+      "JavaScript",
+      "SCSS Modules",
+      "NextAuth.js",
+      "MongoDB",
+      "Mongoose",
+      "Firebase Storage",
+      "OpenAI API",
+      "ElevenLabs API",
+      "WebSocket ASR",
+      "SWR",
+      "Zod",
+      "DnD Kit",
+      "use-local-storage-state"
     ],
-    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
-  },
-  {
-    "id": 30,
-    "number": 30,
-    "category": ["Front-End"],
-    "poster": "/images/projects/30/poster.webp",
-    "poster2": "/images/projects/30/poster2.webp",
-    "title": "ASCANIA LANDING",
-    "description": "Built a responsive promo site for Parmalat Comfort with an interactive visitor test and guided results. Implemented a modular UI with a slider-driven question flow, on-scroll animations, tabs, smooth in-page navigation, and debounced resize logic; plus a reusable popup system, sticky header, and preloader.",
-    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "vanilla JS utilities", "Yandex API"],
-    "links": ["https://mirasov.dev/portfolio/parmalat/", "https://github.com/RuslanMirasov/parmalat"],
+    "links": ["https://intervizo-pearl.vercel.app", "https://github.com/RuslanMirasov/intervizo"],
     "features": [
-      "Responsive semantic layout",
-      "Visitor test: slider flow, progress counter, result aggregation",
-      "Slide locking and end-state handling with restart",
-      "Debounced resize with slider re-init",
-      "Animation on scroll (AOS-style module)",
-      "“Why us” tabbed content",
-      "Smooth scroll-to-block navigation",
-      "Reusable popup framework",
-      "Sticky header and preloader"
+      "Full-stack AI hiring platform architecture built on Next.js App Router with protected HR кабинеты, public candidate entry points, and route-level access control via NextAuth middleware",
+      "AI-assisted interview builder that generates complete interview сценарии from a short HR prompt, enriches missing metadata, and returns structured JSON-ready interview flows through OpenAI",
+      "Modular interview editor with drag-and-drop question orchestration, manual refinement of AI-generated content, diff-aware update flow, and persistent draft storage in localStorage",
+      "Automated voice pipeline for interview scripts: text-to-speech generation for each interview step, background media processing, and asset delivery through Firebase Storage",
+      "Live interview room with avatar-driven question playback, synchronized camera/audio capture, step-based interview progression, countdown logic, and candidate-facing conversational UX",
+      "Real-time speech recognition flow over WebSocket ASR with trigger phrase detection for commands like repeat/next, voice activity detection, segmented transcription handling, and multilingual trigger support",
+      "Custom media recording pipeline that mixes webcam video, microphone input, and system-played question audio into a single interview recording using MediaRecorder and AudioContext APIs",
+      "Automated post-interview evaluation pipeline that scores every answer with AI, generates per-question feedback, calculates aggregated candidate scoring, and persists structured results to the database",
+      "Candidate lifecycle management including duplicate-submission prevention, searchable result listings, interview-specific candidate history, detailed review pages, and video playback for recorded sessions",
+      "Robust data validation and persistence layer using Zod plus Mongoose schemas for interviews, candidates, and users, backed by typed business rules, indexed queries, and safe CRUD endpoints",
+      "Hybrid authentication system with credentials and Google OAuth, session-based role propagation, protected internal workflows, and shareable external interview links for candidates",
+      "Reusable product-grade Frontend infrastructure: centralized request layer with SWR/SWR Mutation, popup and toast systems, progress tracking contexts, loading states, and resilient error handling across async flows"
     ],
-    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+    "client": ["Digital studio", "Brainst", "https://brainst.pro/"]
   },
+
   {
     "id": 2,
     "number": 2,
@@ -75,11 +72,11 @@
   {
     "id": 3,
     "number": 3,
-    "category": ["Front-end", "Team project"],
+    "category": ["Frontend", "Team project"],
     "poster": "/images/projects/7/poster.webp",
     "poster2": "/images/projects/7/poster2.webp",
     "title": "POWER PULSE.APP",
-    "description": "This is the final team project at the IT school GOIT. The team was tasked with developing a fitness web application where users can track their daily workout progress, log calorie and activity metrics, monitor their diet, manage nutrition, and more. As a member of the front-end development team, I was responsible for implementing the login and registration pages, the profile settings page, the main page, and the 404 error page.",
+    "description": "This is the final team project at the IT school GOIT. The team was tasked with developing a fitness web application where users can track their daily workout progress, log calorie and activity metrics, monitor their diet, manage nutrition, and more. As a member of the Frontend development team, I was responsible for implementing the login and registration pages, the profile settings page, the main page, and the 404 error page.",
     "stack": ["HTML", "CSS", "JavaScript", "React", "Redux-Toolkit", "Vite", "REST API"],
     "links": [
       "https://kurshatsov-andrii.github.io/leader-code-team-power-pulse/",
@@ -91,7 +88,7 @@
   {
     "id": 1,
     "number": 1,
-    "category": ["front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/4/poster.webp",
     "poster2": "/images/projects/4/poster2.webp",
     "title": "NECTAR SPA.SALON",
@@ -114,9 +111,33 @@
     "client": ["Marketing agency for beauty", "Beauty-Alliance", "https://beautyalliance-marketing.com/"]
   },
   {
+    "id": 30,
+    "number": 30,
+    "category": ["Frontend"],
+    "poster": "/images/projects/30/poster.webp",
+    "poster2": "/images/projects/30/poster2.webp",
+    "title": "ASCANIA LANDING",
+    "description": "Promotional website for Ascania, a beverage brand specializing in lemonades and bottled water made from natural ingredients and mountain spring water. The project presents the product range, communicates the brand’s natural origin and quality standards, and supports customer engagement through contacts, feedback, and distribution geography.",
+    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "Swiper.js", "IMask", "Yandex Maps API", "JSON"],
+    "links": ["https://ruslanmirasov.github.io/Ascania/", "https://github.com/RuslanMirasov/Ascania"],
+    "features": [
+      "Responsive promotional landing page with a separate geography subpage",
+      "Animated hero slider with fade transitions, autoplay, and synced decorative scene layers",
+      "Layered parallax section driven by scroll position and requestAnimationFrame",
+      "Tabbed product and water sections with animated content switching",
+      "Reusable Swiper setup with breakpoints, navigation arrows, looping, and autoplay",
+      "Smooth scroll navigation for anchor links with mobile menu auto-close behavior",
+      "Reusable popup system with animated transitions, backdrop handling, Escape close, and scroll locking",
+      "Callback form with client-side validation, floating label states, and dynamic phone input masking via IMask",
+      "Preloader sequence and burger navigation for mobile interaction",
+      "Yandex Maps integration on the geography page with JSON-driven markers"
+    ],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
     "id": 27,
     "number": 27,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/27/poster.webp",
     "poster2": "/images/projects/27/poster2.webp",
     "title": "PARMALAT COMFORT",
@@ -137,10 +158,34 @@
     "passwords": ["parmalat", "123qweQ"],
     "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
+
+  {
+    "id": 29,
+    "number": 29,
+    "category": ["Frontend"],
+    "poster": "/images/projects/29/poster.webp",
+    "poster2": "/images/projects/29/poster2.webp",
+    "title": "VTB THEATRE",
+    "description": "A large interactive multi-page promotional website for VTB’s “Home Theatre” project. The platform turns a seasonal campaign into a playful digital theatre space with scripts, costume and makeup guides, sound effects, printable materials, interactive predictions, and a themed holiday map.",
+    "stack": ["HTML5", "SCSS", "JavaScript (ES Modules)", "Swiper.js", "HTML2PDF.js", "Yandex Maps API", "JSON"],
+    "links": ["https://teatr.vtb.ru/"],
+    "features": [
+      "Large multi-page architecture with themed sections: stage, wardrobe, makeup room, orchestra pit, buffet, director’s room, secret room, and holiday map",
+      "Custom animated preloader with session-based first-visit logic",
+      "Responsive burger navigation, fullscreen mode toggle, and mobile viewport height fix",
+      "Custom popup system with smooth switching, backdrop handling, and Escape-to-close support",
+      "Adaptive Swiper sliders with breakpoints, navigation, pagination, and named slider control",
+      "Interactive play-selection quiz with sessionStorage-based answers and dynamic result rendering",
+      "Built-in audio player for sound effects and music cues with preload, toggle play/stop, and single-active-track logic",
+      "Printable script pages with browser print support, PDF export via HTML2PDF, and role highlighting with random color assignment",
+      "Extra interactive modules including smooth scroll-to-section navigation, tabbed content, random predictions from JSON, sticky sidebar behavior, and a custom Yandex map with JSON-driven markers and popup cards"
+    ],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
   {
     "id": 25,
     "number": 25,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/25/poster.webp",
     "poster2": "/images/projects/25/poster2.webp",
     "title": "PRESIDENT LANDING",
@@ -161,53 +206,9 @@
     "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
   {
-    "id": 26,
-    "number": 26,
-    "category": ["Front-End"],
-    "poster": "/images/projects/26/poster.webp",
-    "poster2": "/images/projects/26/poster2.webp",
-    "title": "GALBANI WEBSITE",
-    "description": "Developed a responsive product website for Galbani with a recipe catalog and weekly highlight. Built on a modular architecture with a custom personality quiz, reusable UI modules, and localized UX focused on smooth navigation and engagement.",
-    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "vanilla JS utilities"],
-    "links": ["https://52ricette.galbani.ru/", "https://github.com/RuslanMirasov/galbani"],
-    "features": [
-      "Responsive semantic layout",
-      "Custom quiz with localStorage progress and result logic",
-      "Sticky filters with custom select inputs",
-      "Language switcher",
-      "Smooth scroll-to-block navigation",
-      "Reusable popup framework",
-      "Sticky header and preloader"
-    ],
-    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
-  },
-  {
-    "id": 28,
-    "number": 28,
-    "category": ["Front-End"],
-    "poster": "/images/projects/28/poster.webp",
-    "poster2": "/images/projects/28/poster2.webp",
-    "title": "NPO NORTH WEBSITE",
-    "description": "Developed a multi-page corporate website for NPO North, an expert in ground thermoregulation. The site highlights the company’s engineering expertise with a strict visual style and a structured presentation of services, technologies, and projects, including an interactive map of implemented objects.",
-    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "vanilla JS utilities"],
-    "links": ["https://www.nponorth.ru/", "https://github.com/RuslanMirasov/npo_north"],
-    "features": [
-      "Responsive semantic layout",
-      "Custom interactive map with pins and popovers",
-      "Scroll-triggered animations via IntersectionObserver",
-      "Animated counters",
-      "Accordions for structured content",
-      "Smooth scroll-to-block navigation",
-      "Content sliders and tabs",
-      "Preloader and sticky header",
-      "Platform detection (Android/Safari) for UI fixes"
-    ],
-    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
-  },
-  {
     "id": 24,
     "number": 24,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/24/poster.webp",
     "poster2": "/images/projects/24/poster2.webp",
     "title": "SPORTLOTO LANDING",
@@ -229,9 +230,54 @@
     "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
   },
   {
+    "id": 26,
+    "number": 26,
+    "category": ["Frontend"],
+    "poster": "/images/projects/26/poster.webp",
+    "poster2": "/images/projects/26/poster2.webp",
+    "title": "GALBANI WEBSITE",
+    "description": "Developed a responsive product website for Galbani with a recipe catalog and weekly highlight. Built on a modular architecture with a custom personality quiz, reusable UI modules, and localized UX focused on smooth navigation and engagement.",
+    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "vanilla JS utilities"],
+    "links": ["https://52ricette.galbani.ru/", "https://github.com/RuslanMirasov/galbani"],
+    "features": [
+      "Responsive semantic layout",
+      "Custom quiz with localStorage progress and result logic",
+      "Sticky filters with custom select inputs",
+      "Language switcher",
+      "Smooth scroll-to-block navigation",
+      "Reusable popup framework",
+      "Sticky header and preloader"
+    ],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
+    "id": 28,
+    "number": 28,
+    "category": ["Frontend"],
+    "poster": "/images/projects/28/poster.webp",
+    "poster2": "/images/projects/28/poster2.webp",
+    "title": "NPO NORTH WEBSITE",
+    "description": "Developed a multi-page corporate website for NPO North, an expert in ground thermoregulation. The site highlights the company’s engineering expertise with a strict visual style and a structured presentation of services, technologies, and projects, including an interactive map of implemented objects.",
+    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "vanilla JS utilities"],
+    "links": ["https://www.nponorth.ru/", "https://github.com/RuslanMirasov/npo_north"],
+    "features": [
+      "Responsive semantic layout",
+      "Custom interactive map with pins and popovers",
+      "Scroll-triggered animations via IntersectionObserver",
+      "Animated counters",
+      "Accordions for structured content",
+      "Smooth scroll-to-block navigation",
+      "Content sliders and tabs",
+      "Preloader and sticky header",
+      "Platform detection (Android/Safari) for UI fixes"
+    ],
+    "client": ["Digital communications studio", "Human Touch", "https://human-touch.ru/"]
+  },
+
+  {
     "id": 23,
     "number": 23,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/23/poster.webp",
     "poster2": "/images/projects/23/poster2.webp",
     "title": "BECON WEBSITE",
@@ -256,7 +302,7 @@
   {
     "id": 22,
     "number": 22,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/22/poster.webp",
     "poster2": "/images/projects/22/poster2.webp",
     "title": "GORILLA LANDING",
@@ -269,7 +315,7 @@
   {
     "id": 21,
     "number": 21,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/21/poster.webp",
     "poster2": "/images/projects/21/poster2.webp",
     "title": "YANDEX RENT",
@@ -294,7 +340,7 @@
   {
     "id": 19,
     "number": 19,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/19/poster.webp",
     "poster2": "/images/projects/19/poster2.webp",
     "title": "BARNI PUZZLES",
@@ -308,7 +354,7 @@
   {
     "id": 4,
     "number": 4,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/1/poster.webp",
     "poster2": "/images/projects/1/poster2.webp",
     "title": "ALYONKA CHOCOLATE",
@@ -333,7 +379,7 @@
   {
     "id": 5,
     "number": 5,
-    "category": ["Front-end", "Back-end"],
+    "category": ["Frontend", "Back-end"],
     "poster": "/images/projects/2/poster.webp",
     "poster2": "/images/projects/2/poster2.webp",
     "title": "DIROL WEBSITE",
@@ -357,7 +403,7 @@
   {
     "id": 20,
     "number": 20,
-    "category": ["Front-End", "Back-end"],
+    "category": ["Frontend", "Back-end"],
     "poster": "/images/projects/20/poster.webp",
     "poster2": "/images/projects/20/poster2.webp",
     "title": "THE-SELF QUIZ",
@@ -370,7 +416,7 @@
   {
     "id": 6,
     "number": 6,
-    "category": ["Front-end", "Back-end"],
+    "category": ["Frontend", "Back-end"],
     "poster": "/images/projects/12/poster.webp",
     "poster2": "/images/projects/12/poster2.webp",
     "title": "DMITRIY PISARUK",
@@ -393,7 +439,7 @@
   {
     "id": 7,
     "number": 7,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/11/poster.webp",
     "poster2": "/images/projects/11/poster2.webp",
     "title": "GUINOT SALON",
@@ -417,7 +463,7 @@
   {
     "id": 8,
     "number": 8,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/3/poster.webp",
     "poster2": "/images/projects/3/poster2.webp",
     "title": "TORNADO LANDING",
@@ -430,7 +476,7 @@
   {
     "id": 9,
     "number": 9,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/6/poster.webp",
     "poster2": "/images/projects/6/poster2.webp",
     "title": "JUBILEE COOKIES",
@@ -453,7 +499,7 @@
   {
     "id": 10,
     "number": 10,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/8/poster.webp",
     "poster2": "/images/projects/8/poster2.webp",
     "title": "OREO GAME PAGES",
@@ -466,7 +512,7 @@
   {
     "id": 11,
     "number": 11,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/9/poster.webp",
     "poster2": "/images/projects/9/poster2.webp",
     "title": "LIBRIMI LENDING",
@@ -486,7 +532,7 @@
   {
     "id": 12,
     "number": 12,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/10/poster.webp",
     "poster2": "/images/projects/10/poster2.webp",
     "title": "MILLENIUM SALON",
@@ -509,7 +555,7 @@
   {
     "id": 13,
     "number": 13,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/13/poster.webp",
     "poster2": "/images/projects/13/poster2.webp",
     "title": "ALLWIN GROUP",
@@ -533,7 +579,7 @@
   {
     "id": 14,
     "number": 14,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/14/poster.webp",
     "poster2": "/images/projects/14/poster2.webp",
     "title": "FRONERI MILKA",
@@ -546,7 +592,7 @@
   {
     "id": 15,
     "number": 15,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/15/poster.webp",
     "poster2": "/images/projects/15/poster2.webp",
     "title": "FRONERI OREO",
@@ -559,7 +605,7 @@
   {
     "id": 16,
     "number": 16,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/16/poster.webp",
     "poster2": "/images/projects/16/poster2.webp",
     "title": "THE FIRST SCROLLPAGE",
@@ -582,7 +628,7 @@
   {
     "id": 17,
     "number": 17,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/17/poster.webp",
     "poster2": "/images/projects/17/poster2.webp",
     "title": "A-2 LENDING PAGE",
@@ -604,7 +650,7 @@
   {
     "id": 18,
     "number": 18,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/18/poster.webp",
     "poster2": "/images/projects/18/poster2.webp",
     "title": "PERSONA SHOPPER",

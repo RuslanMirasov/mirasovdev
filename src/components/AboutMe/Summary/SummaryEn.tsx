@@ -4,8 +4,10 @@ const SummaryEn: React.FC = () => {
   return (
     <>
       <Text size="big">
-        Frontend developer with experience in web development since 2015. I have worked both independently and as part of teams in marketing agencies
-        and web studios, collaborating closely with designers, project managers, and backend developers to ensure smooth project development.
+        Frontend developer with 6+ years of experience building web applications for marketing and digital agencies. Strong foundation in JavaScript
+        ES6+, HTML, and CSS/SCSS, complemented by 2+ years of hands-on work with React, Next.js, TypeScript, and Node.js as a freelance developer.
+        Experienced in responsive UI development, RESTful API integration, and scalable web applications. Currently integrating OpenAI APIs to
+        automate business logic.
       </Text>
       <Text size="big">
         Currently, I am looking for a company for long-term full-time collaboration, where I can apply my experience and continue my professional

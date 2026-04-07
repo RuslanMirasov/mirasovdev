@@ -4,9 +4,10 @@ const SummaryDe: React.FC = () => {
   return (
     <>
       <Text size="big">
-        Frontend-Entwickler mit Erfahrung in der Webentwicklung seit 2015. Ich habe sowohl eigenständig als auch im Team in Marketingagenturen und
-        Webstudios gearbeitet und dabei eng mit Designern, Projektmanagern und Backend-Entwicklern zusammengearbeitet, um eine reibungslose
-        Projektentwicklung sicherzustellen.
+        Frontend-Entwickler mit über 6 Jahren Erfahrung in der Entwicklung von Webanwendungen für Marketing und Digitalagenturen. Solide Kenntnisse in
+        JavaScript ES6+, HTML und CSS/SCSS, ergänzt durch mehr als 2 Jahre praktische Erfahrung mit React, Next.js, TypeScript und Node.js als
+        freiberuflicher Entwickler. Erfahren in der Entwicklung responsiver Benutzeroberflächen, der Integration von RESTful APIs und der Erstellung
+        skalierbarer Webanwendungen. Derzeit beschäftigt mit der Integration von OpenAI-APIs zur Automatisierung von Geschäftslogik.
       </Text>
       <Text size="big">
         Derzeit suche ich ein Unternehmen für eine langfristige Vollzeit-Zusammenarbeit, in dem ich meine Erfahrung einbringen und mich beruflich

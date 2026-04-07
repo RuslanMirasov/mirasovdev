@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         <TitleBox>
           <b>{t('hero_head')}</b>
           <Title tag="h1" size="h1">
-            Front-end <br />
+            Frontend <br />
             {t('logo')}
           </Title>
           <Text width="322">{t('hero_subtitle')}</Text>

@@ -1,5 +1,48 @@
 [
   {
+    "id": 31,
+    "number": 31,
+    "category": ["full-Stack"],
+    "poster": "/images/projects/31/poster.webp",
+    "poster2": "/images/projects/31/poster2.webp",
+    "title": "InterVizo APP",
+    "description": "Eine KI-gestützte Plattform zur Automatisierung der frühen Phasen des Recruiting-Prozesses. Das System ermöglicht es HR-Teams, auf Basis eines kurzen Prompts Interviewskripte und Fragenpools zu generieren, Bewerbungsgespräche mit KI-basierten Sprach- oder Video-Avataren durchzuführen, Antworten automatisch zu transkribieren und auszuwerten sowie strukturierte Berichte mit Bewertungen und den wichtigsten Erkenntnissen bereitzustellen. Die Lösung reduziert den Zeitaufwand für Erstinterviews, erhöht die Objektivität und Einheitlichkeit der Bewertung, verkürzt den Hiring-Prozess und stärkt die Arbeitgebermarke. Durch die modulare Architektur bietet die Plattform zudem großes Potenzial für den Einsatz im Onboarding, in der internen Weiterbildung, im Kundensupport und in der Qualitätsbewertung.",
+    "stack": [
+      "Next.js 16 (App Router)",
+      "React 19",
+      "JavaScript",
+      "SCSS Modules",
+      "NextAuth.js",
+      "MongoDB",
+      "Mongoose",
+      "Firebase Storage",
+      "OpenAI API",
+      "ElevenLabs API",
+      "WebSocket ASR",
+      "SWR",
+      "Zod",
+      "DnD Kit",
+      "use-local-storage-state"
+    ],
+    "links": ["https://intervizo-pearl.vercel.app", "https://github.com/RuslanMirasov/intervizo"],
+    "features": [
+      "Full-Stack-Plattform zur Automatisierung der ersten Hiring-Phasen mit geschuetzten HR-Bereichen, oeffentlichen Kandidatenpfaden und rollenbasierter Zugriffskontrolle",
+      "KI-gestuetzter Interview-Builder, der aus einem kurzen HR-Prompt strukturierte Interview-Szenarien, Fragenpools und Metadaten generiert",
+      "Modularer Interview-Editor mit Drag-and-Drop-Sortierung, manueller Nachbearbeitung KI-generierter Inhalte, persistenter Entwurfslogik und differenzbasierter Aktualisierung",
+      "Automatisierte Audio-Pipeline fuer Interview-Skripte mit Text-to-Speech-Generierung, Hintergrundverarbeitung und Auslieferung der Mediendateien ueber Firebase Storage",
+      "Interaktiver Interview-Raum mit Avatar-gestuetzter Fragenausgabe, synchronisierter Kamera- und Audioaufnahme, schrittweiser Interviewlogik und kandidatenseitigem Conversational UX",
+      "Echtzeit-Spracherkennung ueber WebSocket-ASR mit Trigger-Erkennung fuer Sprachbefehle wie Wiederholen oder Weiter, Voice-Activity-Detection und segmentierter Transkriptionsverarbeitung",
+      "Eigene Media-Recording-Pipeline, die Webcam-Video, Mikrofon und abgespielte Interviewfragen in einer einzigen Aufnahme ueber MediaRecorder und AudioContext zusammenfuehrt",
+      "Automatisierte Nachbewertung der Interviews mit KI-basierter Auswertung jeder Antwort, Feedback pro Frage, aggregierter Gesamtbewertung und Speicherung strukturierter Ergebnisse",
+      "Kandidaten-Workflow mit Schutz vor Mehrfacheinreichungen, durchsuchbaren Ergebnislisten, interviewbezogener Historie, Detailansichten und Videowiedergabe aufgezeichneter Sessions",
+      "Zuverlaessige Daten- und Business-Logik auf Basis von Zod und Mongoose mit validierten Schemas, indizierten Abfragen und abgesicherten CRUD-Endpoints fuer Interviews, Kandidaten und Nutzer",
+      "Hybrides Authentifizierungssystem mit Credentials-Login und Google OAuth sowie teilbaren Kandidatenlinks fuer externe Interviewteilnahmen",
+      "Produktionsreife Frontend-Infrastruktur mit SWR-basierter Datenkommunikation, zentralem Request-Layer, Popup- und Toast-System, Progress-Tracking und belastbarem Async-Error-Handling"
+    ],
+    "client": ["Digitale Studio", "Brainst", "https://brainst.pro/"]
+  },
+
+  {
     "id": 2,
     "number": 2,
     "category": ["Pet Project", "Full-stack"],
@@ -33,7 +76,7 @@
   {
     "id": 3,
     "number": 3,
-    "category": ["Front-end", "Teamprojekt"],
+    "category": ["Frontend", "Teamprojekt"],
     "poster": "/images/projects/7/poster.webp",
     "poster2": "/images/projects/7/poster2.webp",
     "title": "POWER PULSE.APP",
@@ -49,7 +92,7 @@
   {
     "id": 1,
     "number": 1,
-    "category": ["front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/4/poster.webp",
     "poster2": "/images/projects/4/poster2.webp",
     "title": "NECTAR SPA.SALON",
@@ -72,9 +115,33 @@
   },
 
   {
+    "id": 30,
+    "number": 30,
+    "category": ["Frontend"],
+    "poster": "/images/projects/30/poster.webp",
+    "poster2": "/images/projects/30/poster2.webp",
+    "title": "ASCANIA LANDING",
+    "description": "Promotionswebsite fuer Ascania, eine Getraenkemarke mit Fokus auf Limonaden und abgefuelltes Wasser aus natuerlichen Zutaten und Bergquellwasser. Das Projekt praesentiert das Produktsortiment, vermittelt die natuerliche Herkunft und den Qualitaetsanspruch der Marke und unterstuetzt die Kundenansprache ueber Kontakte, Feedback und die Vertriebsgeografie.",
+    "stack": ["HTML5", "SCSS", "JavaScript", "ES Modules", "Vanilla JS", "Swiper.js", "IMask", "Yandex Maps API", "JSON"],
+    "links": ["https://ruslanmirasov.github.io/Ascania/", "https://github.com/RuslanMirasov/Ascania"],
+    "features": [
+      "Responsive Promo-Landingpage mit eigener Unterseite zur Vertriebsgeografie",
+      "Animierter Hero-Slider mit Fade-Uebergaengen, Autoplay und synchronisierten dekorativen Szenenebenen",
+      "Mehrschichtiger Parallax-Bereich, gesteuert ueber Scroll-Position und requestAnimationFrame",
+      "Tab-Navigation fuer Produkt- und Wasserkategorien mit animiertem Inhaltswechsel",
+      "Wiederverwendbare Swiper-Konfiguration mit Breakpoints, Navigation, Loop und Autoplay",
+      "Sanfte Scroll-Navigation fuer Anchor-Links mit automatischem Schliessen des mobilen Menues",
+      "Wiederverwendbares Popup-System mit Animationen, Backdrop-Handling, Escape-Schliessen und Scroll-Lock",
+      "Callback-Formular mit clientseitiger Validierung, Floating-Label-States und dynamischer Telefonnummern-Maske via IMask",
+      "Preloader-Sequenz und Burger-Navigation fuer mobile Nutzung",
+      "Yandex-Maps-Integration auf der Geografie-Seite mit JSON-gesteuerten Markern"
+    ],
+    "client": ["Digitale Kommunikationsagentur", "Human Touch", "https://human-touch.ru/"]
+  },
+  {
     "id": 27,
     "number": 27,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/27/poster.webp",
     "poster2": "/images/projects/27/poster2.webp",
     "title": "PARMALAT COMFORT",
@@ -95,11 +162,35 @@
     "passwords": ["parmalat", "123qweQ"],
     "client": ["Digitale Kommunikationsagentur", "Human Touch", "https://human-touch.ru/"]
   },
+  {
+    "id": 29,
+    "number": 29,
+    "category": ["Frontend"],
+    "poster": "/images/projects/29/poster.webp",
+    "poster2": "/images/projects/29/poster2.webp",
+    "title": "VTB THEATER",
+    "description": "Eine umfangreiche interaktive Multi-Page-Promowebsite fuer das VTB-Projekt \"Home Theatre\". Die Plattform verwandelt eine saisonale Kampagne in einen verspielten digitalen Theaterraum mit Skripten, Kostuem- und Make-up-Guides, Soundeffekten, druckbaren Materialien, interaktiven Vorhersagen und einer thematischen Feiertagskarte.",
+    "stack": ["HTML5", "SCSS", "JavaScript (ES Modules)", "Swiper.js", "HTML2PDF.js", "Yandex Maps API", "JSON"],
+    "features": [
+      "Umfangreiche Multi-Page-Architektur mit thematischen Bereichen: Buehne, Kostuemfundus, Maske, Orchestergraben, Buffet, Regiezimmer, Geheimzimmer und Feiertagskarte",
+      "Individueller animierter Preloader mit sitzungsbasierter First-Visit-Logik",
+      "Responsives Burger-Menue, Fullscreen-Umschalter und Korrektur der mobilen Viewport-Hoehe",
+      "Eigenes Popup-System mit sanften Uebergaengen, Backdrop-Handling und Schliessen per Escape",
+      "Adaptive Swiper-Slider mit Breakpoints, Navigation, Pagination und benannter Slider-Steuerung",
+      "Interaktiver Stueck-Finder mit sessionStorage-basierten Antworten und dynamischer Ergebnisdarstellung",
+      "Integrierter Audio-Player fuer Soundeffekte und musikalische Cues mit Preload, Play/Stop-Toggle und Single-Active-Track-Logik",
+      "Druckbare Skriptseiten mit Browser-Print, PDF-Export ueber HTML2PDF und Rollen-Highlighting mit zufaelliger Farbauswahl",
+      "Zusaetzliche Interaktivitaet durch Smooth-Scroll-Navigation, Tabs, zufaellige Vorhersagen aus JSON, Sticky-Sidebar-Verhalten und eine angepasste Yandex-Karte mit JSON-gesteuerten Markern und Popup-Karten"
+    ],
+
+    "links": ["https://teatr.vtb.ru/"],
+    "client": ["Digitale Kommunikationsagentur", "Human Touch", "https://human-touch.ru/"]
+  },
 
   {
     "id": 25,
     "number": 25,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/25/poster.webp",
     "poster2": "/images/projects/25/poster2.webp",
     "title": "PRESIDENT LANDING",
@@ -122,7 +213,7 @@
   {
     "id": 24,
     "number": 24,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/24/poster.webp",
     "poster2": "/images/projects/24/poster2.webp",
     "title": "SPORTLOTO LANDING",
@@ -146,7 +237,7 @@
   {
     "id": 28,
     "number": 28,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/28/poster.webp",
     "poster2": "/images/projects/28/poster2.webp",
     "title": "NPO NORTH WEBSITE",
@@ -169,7 +260,7 @@
   {
     "id": 26,
     "number": 26,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/26/poster.webp",
     "poster2": "/images/projects/26/poster2.webp",
     "title": "GALBANI WEBSITE",
@@ -191,7 +282,7 @@
   {
     "id": 23,
     "number": 23,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/23/poster.webp",
     "poster2": "/images/projects/23/poster2.webp",
     "title": "BECON WEBSITE",
@@ -216,7 +307,7 @@
   {
     "id": 22,
     "number": 22,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/22/poster.webp",
     "poster2": "/images/projects/22/poster2.webp",
     "title": "GORILLA LANDING",
@@ -229,7 +320,7 @@
   {
     "id": 21,
     "number": 21,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/21/poster.webp",
     "poster2": "/images/projects/21/poster2.webp",
     "title": "YANDEX RENT",
@@ -254,7 +345,7 @@
   {
     "id": 19,
     "number": 19,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/19/poster.webp",
     "poster2": "/images/projects/19/poster2.webp",
     "title": "BARNI SPIELESEITE",
@@ -276,7 +367,7 @@
   {
     "id": 4,
     "number": 4,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/1/poster.webp",
     "poster2": "/images/projects/1/poster2.webp",
     "title": "ALYONKA CHOCOLATE",
@@ -301,7 +392,7 @@
   {
     "id": 5,
     "number": 5,
-    "category": ["Front-end", "Back-end"],
+    "category": ["Frontend", "Back-end"],
     "poster": "/images/projects/2/poster.webp",
     "poster2": "/images/projects/2/poster2.webp",
     "title": "DIROL WEBSITE",
@@ -325,7 +416,7 @@
   {
     "id": 20,
     "number": 20,
-    "category": ["Front-End", "Back-end"],
+    "category": ["Frontend", "Back-end"],
     "poster": "/images/projects/20/poster.webp",
     "poster2": "/images/projects/20/poster2.webp",
     "title": "THE-SELF QUIZ",
@@ -338,7 +429,7 @@
   {
     "id": 6,
     "number": 6,
-    "category": ["Front-end", "Back-end"],
+    "category": ["Frontend", "Back-end"],
     "poster": "/images/projects/12/poster.webp",
     "poster2": "/images/projects/12/poster2.webp",
     "title": "DMITRIY PISARUK",
@@ -361,7 +452,7 @@
   {
     "id": 7,
     "number": 7,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/11/poster.webp",
     "poster2": "/images/projects/11/poster2.webp",
     "title": "GUINOT SALON",
@@ -385,7 +476,7 @@
   {
     "id": 8,
     "number": 8,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/3/poster.webp",
     "poster2": "/images/projects/3/poster2.webp",
     "title": "TORNADO LANDING",
@@ -398,7 +489,7 @@
   {
     "id": 9,
     "number": 9,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/6/poster.webp",
     "poster2": "/images/projects/6/poster2.webp",
     "title": "JUBILEE COOKIES",
@@ -421,7 +512,7 @@
   {
     "id": 10,
     "number": 10,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/8/poster.webp",
     "poster2": "/images/projects/8/poster2.webp",
     "title": "OREO SPIEL",
@@ -434,7 +525,7 @@
   {
     "id": 11,
     "number": 11,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/9/poster.webp",
     "poster2": "/images/projects/9/poster2.webp",
     "title": "LIBRIMI LENDING",
@@ -454,7 +545,7 @@
   {
     "id": 12,
     "number": 12,
-    "category": ["Front-end"],
+    "category": ["Frontend"],
     "poster": "/images/projects/10/poster.webp",
     "poster2": "/images/projects/10/poster2.webp",
     "title": "MILLENIUM SALON",
@@ -477,7 +568,7 @@
   {
     "id": 13,
     "number": 13,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/13/poster.webp",
     "poster2": "/images/projects/13/poster2.webp",
     "title": "ALLWIN GROUP",
@@ -501,7 +592,7 @@
   {
     "id": 14,
     "number": 14,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/14/poster.webp",
     "poster2": "/images/projects/14/poster2.webp",
     "title": "FRONERI MILKA",
@@ -514,7 +605,7 @@
   {
     "id": 15,
     "number": 15,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/15/poster.webp",
     "poster2": "/images/projects/15/poster2.webp",
     "title": "FRONERI OREO",
@@ -527,7 +618,7 @@
   {
     "id": 16,
     "number": 16,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/16/poster.webp",
     "poster2": "/images/projects/16/poster2.webp",
     "title": "THE FIRST SCROLLPAGE",
@@ -550,7 +641,7 @@
   {
     "id": 17,
     "number": 17,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/17/poster.webp",
     "poster2": "/images/projects/17/poster2.webp",
     "title": "A-2 LENDING PAGE",
@@ -572,7 +663,7 @@
   {
     "id": 18,
     "number": 18,
-    "category": ["Front-End"],
+    "category": ["Frontend"],
     "poster": "/images/projects/18/poster.webp",
     "poster2": "/images/projects/18/poster2.webp",
     "title": "PERSONA SHOPPER",

@@ -24,8 +24,8 @@ const ContactsList: React.FC = () => {
       _id: 2,
       icon: 'email',
       label: 'Email',
-      url: 'mailto:info@mirasov.dev',
-      text: 'info@mirasov.dev',
+      url: 'mailto:ruslan@mirasov.dev',
+      text: 'ruslan@mirasov.dev',
     },
     {
       _id: 3,
